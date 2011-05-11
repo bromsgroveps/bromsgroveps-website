@@ -1,0 +1,42 @@
+<webalbum version="1.8.2">
+  <title>Helen Eyre</title>
+  <settings>
+    <photosize width="1024" height="768">original</photosize>
+    <thumbsize width="140" height="105">large</thumbsize>
+    <outputdirectory>D:\Web Image Files\Helen Eyre\helen\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>16777215</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>3</thumbnailrows>
+    <thumbnailcols>3</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <filename>D:\Web Image Files\Helen Eyre\at_the_end_of_the_day.jpg</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Helen Eyre\bluebell_woods.jpg</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Helen Eyre\charlie.jpg</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Helen Eyre\gloucester_docks.jpg</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Helen Eyre\hayley.jpg</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Helen Eyre\portrait.jpg</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Helen Eyre\venice_backstreet.jpg</filename>
+    </photo>
+  </photographs>
+</webalbum>

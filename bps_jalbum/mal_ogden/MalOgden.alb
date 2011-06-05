@@ -1,0 +1,57 @@
+<webalbum version="1.8.2">
+  <title>Mal Ogden</title>
+  <settings>
+    <photosize width="1024" height="768">original</photosize>
+    <thumbsize width="140" height="105">large</thumbsize>
+    <outputdirectory>C:\Users\Home\Desktop\MalOgden\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Slate</colourscheme>
+    <pagecolor>10526880</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>15000804</linkcolor>
+    <hotlinkcolor>16777215</hotlinkcolor>
+    <thumbnailrows>3</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\broadway_tower.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\broadway_woods.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\brockhampton_manor.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\cricceth.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\european eagle_owl.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\heritage_car_museum.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\morecambe_bay_sunset.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\pengarreg_sunset.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\queens_head.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\supper_anyone.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\table_for_two.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Web Image Files\Mal Ogden\walk_on_the_brightside.JPG</filename>
+    </photo>
+  </photographs>
+</webalbum>

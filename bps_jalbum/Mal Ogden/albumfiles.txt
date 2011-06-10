@@ -6,11 +6,15 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-belinda.jpg
-at_the_end_of_the_day.jpg
-bluebell_woods.jpg
-charlie.jpg
-gloucester_docks.jpg
-hayley.jpg
-portrait.jpg
-venice_backstreet.jpg
+broadway_tower.jpg
+broadway_woods.jpg
+brockhampton_manor.jpg
+cricceth.jpg
+europeaneagle_owl.jpg
+heritage_car_museum.jpg
+morecambe_bay_sunset.jpg
+pengarreg_sunset.jpg
+queens_head.jpg
+supper_anyone.jpg
+table_for_two.jpg
+walk_on_the_brightside.jpg

@@ -6,11 +6,12 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-belinda.jpg
-at_the_end_of_the_day.jpg
-bluebell_woods.jpg
-charlie.jpg
-gloucester_docks.jpg
-hayley.jpg
-portrait.jpg
-venice_backstreet.jpg
+bluegeyser.jpg
+contemplation.jpg
+highhimal.jpg
+icecrystals.jpg
+macacasylvanus.jpg
+mammothhotsprings.jpg
+onseaburnsands.jpg
+silhouettesinwellington.jpg
+trinidad.jpg

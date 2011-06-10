@@ -6,15 +6,15 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-old_salt.jpg
-tulips.jpg
 a_hat_to_suit.jpg
-laccaria_amethystea.jpg
-poppies_in_norfolk.jpg
-girls__bikes.jpg
-gatekeeper_butterfly.jpg
-oudemansiella_mucida.jpg
-frosty_morn.jpg
-common_spotted_orchid.jpg
 carpet_of_leaves.jpg
+common_spotted_orchid.jpg
+frosty_morn.jpg
+gatekeeper_butterfly.jpg
+girls__bikes.jpg
+laccaria_amethystea.jpg
+old_salt.jpg
+oudemansiella_mucida.jpg
+poppies_in_norfolk.jpg
 sadie.jpg
+tulips.jpg

@@ -6,10 +6,10 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-one_more_bite.jpg
 high_and_dry.jpg
-wooden_hulk.jpg
-winter_cycling.jpg
+me_and_my_gal.jpg
+one_more_bite.jpg
 sophia.jpg
 the_likely_lads.jpg
-me_and_my_gal.jpg
+winter_cycling.jpg
+wooden_hulk.jpg

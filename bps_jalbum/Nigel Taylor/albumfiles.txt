@@ -6,11 +6,11 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
+algae_deposits_yellowstone_nat_park.jpg
+a_close_call.jpg
+grey_heron_taking_off.jpg
+highland_storm_clouds.jpg
+london_eye_by_night.jpg
 monarch_butterfly.jpg
 sunrise_flight_over_sedona.jpg
 sunrise_under_mesa_arch.jpg
-grey_heron_taking_off.jpg
-london_eye_by_night.jpg
-a_close_call.jpg
-algae_deposits_yellowstone_nat_park.jpg
-highland_storm_clouds.jpg

@@ -6,6 +6,6 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
+Grandads_Guiding_Hand.JPG
 lighthouseatbenodet.jpg
 lighthouseatbenodet2.jpg
-Grandads_Guiding_Hand.JPG

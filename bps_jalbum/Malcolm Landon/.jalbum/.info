@@ -3,7 +3,7 @@
  <object class="java.util.HashMap"> 
   <void method="put"> 
    <string>lastSplashPath</string> 
-   <string>Grandads_Guiding_Hand.JPG</string> 
+   <string>lighthouseatbenodet.jpg</string> 
   </void> 
   <void method="put"> 
    <string>lastSplashSize</string> 

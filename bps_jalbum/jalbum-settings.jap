@@ -1,7 +1,7 @@
 #jAlbum Project
-#Fri Jun 10 20:50:02 BST 2011
+#Fri Jun 10 22:05:04 BST 2011
 skin.splashDepthLevel=2
-skin.splashSize=900x200
+skin.splashSize=900x400
 skin=Turtle
 excludeByDefault=false
 imageLinking=LinkScaled
@@ -110,7 +110,7 @@ skin.guiExists=true
 skin.mapAll=false
 skin.shopHandling=
 class=class se.datadosen.jalbum.AlbumBean
-skin.fixedShapeThumbs=false
+skin.fixedShapeThumbs=true
 skin.fitShrinkonly=false
 includePattern=
 skin.shareDigg=false
@@ -122,6 +122,6 @@ skin.shareStumbleupon=false
 skin.slideshowDelay=4
 skin.enableMouseWheel=true
 imageOrdering=OrderByDate
-cols=4
+cols=2
 notifyFollowers=true
 progressiveMode=true

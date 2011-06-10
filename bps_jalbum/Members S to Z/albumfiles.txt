@@ -6,7 +6,9 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-Members A to F
-Members G to L
-Members M to R
-Members S to Z
+David Ward ARPS
+Fred Thompson
+Nigel Taylor
+Peter Young CPAGB APAGB
+Roger Tyler
+Steve Cooper

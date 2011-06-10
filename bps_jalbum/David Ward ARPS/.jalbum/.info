@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_24" class="java.beans.XMLDecoder"> 
+ <object class="java.util.HashMap"> 
+  <void method="put"> 
+   <string>lastSplashPath</string> 
+   <string>punk_at_blackpool.jpg</string> 
+  </void> 
+  <void method="put"> 
+   <string>lastSplashSize</string> 
+   <string>900x200</string> 
+  </void> 
+ </object> 
+</java> 

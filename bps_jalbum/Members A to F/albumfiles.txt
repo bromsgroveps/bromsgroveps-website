@@ -6,8 +6,10 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-Nigel Taylor
-Fred Thompson
-Roger Tyler
-David Ward ARPS
-Peter Young CPAGB APAGB
+Peter Blunn
+Colin Close AFIAP CPAGB LRPS
+Steve Cooper
+Janet Cox
+Mike Cox
+John Davidson
+Helen Eyre

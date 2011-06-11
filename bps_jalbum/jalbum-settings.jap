@@ -1,5 +1,5 @@
 #jAlbum Project
-#Fri Jun 10 22:05:04 BST 2011
+#Sat Jun 11 16:03:04 BST 2011
 skin.splashDepthLevel=2
 skin.splashSize=900x400
 skin=Turtle
@@ -45,7 +45,7 @@ skin.shopCurrency=EUR
 slideDirectory=slides
 skin.audioLoop=false
 reverseOrder=false
-skin.uplinkUrl=../
+skin.uplinkUrl=../index.html
 skin.slideshowLoop=false
 imageSize=900x600
 hiResDirectory=hi-res
@@ -76,7 +76,7 @@ jpegComment=false
 rows=999
 skin.uploadPath=
 displayVersion=9
-skin.infoPanelVisible=false
+skin.infoPanelVisible=true
 skin.googleMapsKey=
 skin.mapType=Map
 makeThumbs=true
@@ -100,7 +100,7 @@ indexPageName=index
 excludeBacklinks=false
 skin.thumbCaptionTemplate=<span class\="nr">${imageNum}</span> <strong>${fileTitle}</strong> <small>${comment}</small>
 skin.useBreadcrumbPath=true
-skin.thumbnailsVisible=false
+skin.thumbnailsVisible=true
 skin.shareDelicious=false
 highThumbnailCompressionQuality=false
 superimposeFilmIcon=true
@@ -122,6 +122,6 @@ skin.shareStumbleupon=false
 skin.slideshowDelay=4
 skin.enableMouseWheel=true
 imageOrdering=OrderByDate
-cols=2
+cols=4
 notifyFollowers=true
 progressiveMode=true

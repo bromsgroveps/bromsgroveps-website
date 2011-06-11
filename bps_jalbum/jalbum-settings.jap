@@ -1,5 +1,5 @@
 #jAlbum Project
-#Sat Jun 11 16:11:55 BST 2011
+#Sat Jun 11 16:18:34 BST 2011
 skin.splashDepthLevel=2
 skin.splashSize=900x400
 skin=Turtle
@@ -89,7 +89,7 @@ textFileComment=true
 resourceDirectory=res
 exifImageDescription=false
 skin.showShop=false
-skin.backgroundColor=\#e9e4dc
+skin.backgroundColor=\#c0c0c0
 thumbnailDirectory=thumbs
 mediaRSS=true
 skin.askAtLast=true

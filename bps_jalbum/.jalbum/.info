@@ -2,12 +2,12 @@
 <java version="1.6.0_24" class="java.beans.XMLDecoder"> 
  <object class="java.util.HashMap"> 
   <void method="put"> 
-   <string>title</string> 
-   <string>Bromsgrove Photographic Society</string> 
+   <string>imageSettingsHash</string> 
+   <string>b356572c519cb7f5bfa2f869c528cfdf</string> 
   </void> 
   <void method="put"> 
-   <string>imageSettingsHash</string> 
-   <string>abe89928ae9c6e987400b63b55bb91f1</string> 
+   <string>title</string> 
+   <string>Bromsgrove Photographic Society</string> 
   </void> 
   <void method="put"> 
    <string>lastSplashPath</string> 

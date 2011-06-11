@@ -1,5 +1,5 @@
 #jAlbum Project
-#Sat Jun 11 16:03:04 BST 2011
+#Sat Jun 11 16:11:55 BST 2011
 skin.splashDepthLevel=2
 skin.splashSize=900x400
 skin=Turtle
@@ -110,7 +110,7 @@ skin.guiExists=true
 skin.mapAll=false
 skin.shopHandling=
 class=class se.datadosen.jalbum.AlbumBean
-skin.fixedShapeThumbs=true
+skin.fixedShapeThumbs=false
 skin.fitShrinkonly=false
 includePattern=
 skin.shareDigg=false

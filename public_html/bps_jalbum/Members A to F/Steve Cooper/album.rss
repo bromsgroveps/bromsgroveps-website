@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Steve Cooper</title>
+   	<link>../..</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>droitwich_volunteer</title>
+            <link>slides/droitwich_volunteer.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:07 +0100</pubDate>
+            <description>Droitwich Volunteer</description>
+            <media:description type="html">Droitwich Volunteer</media:description>
+            <media:thumbnail url="thumbs/droitwich_volunteer.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/droitwich_volunteer.jpg" width="640" height="426"/>
+            <guid isPermaLink="false">slides/droitwich_volunteer.jpg</guid>
+        </item>
+        <item>
+            <title>hanbury_canal</title>
+            <link>slides/hanbury_canal.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:07 +0100</pubDate>
+            <description>Hanbury Canal Bridge</description>
+            <media:description type="html">Hanbury Canal Bridge</media:description>
+            <media:thumbnail url="thumbs/hanbury_canal.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/hanbury_canal.jpg" width="640" height="427"/>
+            <guid isPermaLink="false">slides/hanbury_canal.jpg</guid>
+        </item>
+        <item>
+            <title>hands</title>
+            <link>slides/hands.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:07 +0100</pubDate>
+            <description>Hands</description>
+            <media:description type="html">Hands</media:description>
+            <media:thumbnail url="thumbs/hands.jpg" width="49" height="100"/>
+            <media:content type="image/jpeg" url="slides/hands.jpg" width="299" height="600"/>
+            <guid isPermaLink="false">slides/hands.jpg</guid>
+        </item>
+        <item>
+            <title>piper</title>
+            <link>slides/piper.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:07 +0100</pubDate>
+            <description>Piper</description>
+            <media:description type="html">Piper</media:description>
+            <media:thumbnail url="thumbs/piper.jpg" width="66" height="100"/>
+            <media:content type="image/jpeg" url="slides/piper.jpg" width="400" height="600"/>
+            <guid isPermaLink="false">slides/piper.jpg</guid>
+        </item>
+        <item>
+            <title>train</title>
+            <link>slides/train.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:07 +0100</pubDate>
+            <description>Narrow Guage Railway</description>
+            <media:description type="html">Narrow Guage Railway</media:description>
+            <media:thumbnail url="thumbs/train.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/train.jpg" width="640" height="427"/>
+            <guid isPermaLink="false">slides/train.jpg</guid>
+        </item>
+    </channel>
+</rss>

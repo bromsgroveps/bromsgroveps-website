@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Roger Tyler</title>
+   	<link>../..</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>bluegeyser</title>
+            <link>slides/bluegeyser.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>Blue Geyser</description>
+            <media:description type="html">Blue Geyser</media:description>
+            <media:thumbnail url="thumbs/bluegeyser.jpg" width="140" height="51"/>
+            <media:content type="image/jpeg" url="slides/bluegeyser.jpg" width="500" height="185"/>
+            <guid isPermaLink="false">slides/bluegeyser.jpg</guid>
+        </item>
+        <item>
+            <title>contemplation</title>
+            <link>slides/contemplation.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>Contemplation</description>
+            <media:description type="html">Contemplation</media:description>
+            <media:thumbnail url="thumbs/contemplation.jpg" width="58" height="100"/>
+            <media:content type="image/jpeg" url="slides/contemplation.jpg" width="291" height="500"/>
+            <guid isPermaLink="false">slides/contemplation.jpg</guid>
+        </item>
+        <item>
+            <title>highhimal</title>
+            <link>slides/highhimal.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>High Himalaya</description>
+            <media:description type="html">High Himalaya</media:description>
+            <media:thumbnail url="thumbs/highhimal.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/highhimal.jpg" width="500" height="333"/>
+            <guid isPermaLink="false">slides/highhimal.jpg</guid>
+        </item>
+        <item>
+            <title>icecrystals</title>
+            <link>slides/icecrystals.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>Ice Crystals</description>
+            <media:description type="html">Ice Crystals</media:description>
+            <media:thumbnail url="thumbs/icecrystals.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/icecrystals.jpg" width="500" height="333"/>
+            <guid isPermaLink="false">slides/icecrystals.jpg</guid>
+        </item>
+        <item>
+            <title>macacasylvanus</title>
+            <link>slides/macacasylvanus.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>Macaca Sylvanus</description>
+            <media:description type="html">Macaca Sylvanus</media:description>
+            <media:thumbnail url="thumbs/macacasylvanus.jpg" width="89" height="100"/>
+            <media:content type="image/jpeg" url="slides/macacasylvanus.jpg" width="357" height="400"/>
+            <guid isPermaLink="false">slides/macacasylvanus.jpg</guid>
+        </item>
+        <item>
+            <title>mammothhotsprings</title>
+            <link>slides/mammothhotsprings.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>Mammoth Hot Springs</description>
+            <media:description type="html">Mammoth Hot Springs</media:description>
+            <media:thumbnail url="thumbs/mammothhotsprings.jpg" width="66" height="100"/>
+            <media:content type="image/jpeg" url="slides/mammothhotsprings.jpg" width="333" height="500"/>
+            <guid isPermaLink="false">slides/mammothhotsprings.jpg</guid>
+        </item>
+        <item>
+            <title>onseaburnsands</title>
+            <link>slides/onseaburnsands.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>On Seaburn Sands</description>
+            <media:description type="html">On Seaburn Sands</media:description>
+            <media:thumbnail url="thumbs/onseaburnsands.jpg" width="140" height="41"/>
+            <media:content type="image/jpeg" url="slides/onseaburnsands.jpg" width="500" height="147"/>
+            <guid isPermaLink="false">slides/onseaburnsands.jpg</guid>
+        </item>
+        <item>
+            <title>silhouettesinwellington</title>
+            <link>slides/silhouettesinwellington.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>Silhouettes in Wellington</description>
+            <media:description type="html">Silhouettes in Wellington</media:description>
+            <media:thumbnail url="thumbs/silhouettesinwellington.jpg" width="122" height="100"/>
+            <media:content type="image/jpeg" url="slides/silhouettesinwellington.jpg" width="400" height="326"/>
+            <guid isPermaLink="false">slides/silhouettesinwellington.jpg</guid>
+        </item>
+        <item>
+            <title>trinidad</title>
+            <link>slides/trinidad.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:28 +0100</pubDate>
+            <description>Trinidad</description>
+            <media:description type="html">Trinidad</media:description>
+            <media:thumbnail url="thumbs/trinidad.jpg" width="70" height="100"/>
+            <media:content type="image/jpeg" url="slides/trinidad.jpg" width="352" height="500"/>
+            <guid isPermaLink="false">slides/trinidad.jpg</guid>
+        </item>
+    </channel>
+</rss>

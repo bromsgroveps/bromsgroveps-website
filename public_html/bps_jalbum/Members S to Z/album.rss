@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Members S to Z</title>
+   	<link>..</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+    	<jalbum:link rel="sub" href="Nigel Taylor/album.rss" />   	
+    	<jalbum:link rel="sub" href="Fred Thompson/album.rss" />   	
+    	<jalbum:link rel="sub" href="Roger Tyler/album.rss" />   	
+    	<jalbum:link rel="sub" href="David Ward ARPS/album.rss" />   	
+    	<jalbum:link rel="sub" href="Peter Young CPAGB APAGB/album.rss" />   	
+        
+    </channel>
+</rss>

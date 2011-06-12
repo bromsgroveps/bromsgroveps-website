@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Malcolm Landon</title>
+   	<link>../..</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>Grandads_Guiding_Hand</title>
+            <link>slides/Grandads_Guiding_Hand.JPG#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:17 +0100</pubDate>
+            <description>Grandad's Guiding Hand</description>
+            <media:description type="html">Grandad's Guiding Hand</media:description>
+            <media:thumbnail url="thumbs/Grandads_Guiding_Hand.JPG" width="100" height="100"/>
+            <media:content type="image/jpeg" url="slides/Grandads_Guiding_Hand.JPG" width="480" height="480"/>
+            <guid isPermaLink="false">slides/Grandads_Guiding_Hand.JPG</guid>
+        </item>
+        <item>
+            <title>lighthouseatbenodet</title>
+            <link>slides/lighthouseatbenodet.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:17 +0100</pubDate>
+            <description>Lighthouse at Benodet</description>
+            <media:description type="html">Lighthouse at Benodet</media:description>
+            <media:thumbnail url="thumbs/lighthouseatbenodet.jpg" width="65" height="100"/>
+            <media:content type="image/jpeg" url="slides/lighthouseatbenodet.jpg" width="312" height="480"/>
+            <guid isPermaLink="false">slides/lighthouseatbenodet.jpg</guid>
+        </item>
+        <item>
+            <title>lighthouseatbenodet2</title>
+            <link>slides/lighthouseatbenodet2.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:17 +0100</pubDate>
+            <description>Lighthouse at Benodet 2</description>
+            <media:description type="html">Lighthouse at Benodet 2</media:description>
+            <media:thumbnail url="thumbs/lighthouseatbenodet2.jpg" width="66" height="100"/>
+            <media:content type="image/jpeg" url="slides/lighthouseatbenodet2.jpg" width="320" height="480"/>
+            <guid isPermaLink="false">slides/lighthouseatbenodet2.jpg</guid>
+        </item>
+    </channel>
+</rss>

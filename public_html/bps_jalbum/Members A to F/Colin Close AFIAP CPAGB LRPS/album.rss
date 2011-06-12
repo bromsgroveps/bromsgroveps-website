@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Colin Close AFIAP CPAGB LRPS</title>
+   	<link>../..</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>high_and_dry</title>
+            <link>slides/high_and_dry.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:06 +0100</pubDate>
+            <description>High and Dry</description>
+            <media:description type="html">High and Dry</media:description>
+            <media:thumbnail url="thumbs/high_and_dry.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/high_and_dry.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/high_and_dry.jpg</guid>
+        </item>
+        <item>
+            <title>me_and_my_gal</title>
+            <link>slides/me_and_my_gal.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:06 +0100</pubDate>
+            <description>Me and My Gal</description>
+            <media:description type="html">Me and My Gal</media:description>
+            <media:thumbnail url="thumbs/me_and_my_gal.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/me_and_my_gal.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/me_and_my_gal.jpg</guid>
+        </item>
+        <item>
+            <title>one_more_bite</title>
+            <link>slides/one_more_bite.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:06 +0100</pubDate>
+            <description>One More Bite</description>
+            <media:description type="html">One More Bite</media:description>
+            <media:thumbnail url="thumbs/one_more_bite.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/one_more_bite.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/one_more_bite.jpg</guid>
+        </item>
+        <item>
+            <title>sophia</title>
+            <link>slides/sophia.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:06 +0100</pubDate>
+            <description>Sophia</description>
+            <media:description type="html">Sophia</media:description>
+            <media:thumbnail url="thumbs/sophia.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/sophia.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/sophia.jpg</guid>
+        </item>
+        <item>
+            <title>the_likely_lads</title>
+            <link>slides/the_likely_lads.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:06 +0100</pubDate>
+            <description>The Likely Lads</description>
+            <media:description type="html">The Likely Lads</media:description>
+            <media:thumbnail url="thumbs/the_likely_lads.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/the_likely_lads.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/the_likely_lads.jpg</guid>
+        </item>
+        <item>
+            <title>winter_cycling</title>
+            <link>slides/winter_cycling.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:06 +0100</pubDate>
+            <description>Winter Cycling</description>
+            <media:description type="html">Winter Cycling</media:description>
+            <media:thumbnail url="thumbs/winter_cycling.jpg" width="123" height="100"/>
+            <media:content type="image/jpeg" url="slides/winter_cycling.jpg" width="640" height="519"/>
+            <guid isPermaLink="false">slides/winter_cycling.jpg</guid>
+        </item>
+        <item>
+            <title>wooden_hulk</title>
+            <link>slides/wooden_hulk.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:06 +0100</pubDate>
+            <description>Wooden Hulk</description>
+            <media:description type="html">Wooden Hulk</media:description>
+            <media:thumbnail url="thumbs/wooden_hulk.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/wooden_hulk.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/wooden_hulk.jpg</guid>
+        </item>
+    </channel>
+</rss>

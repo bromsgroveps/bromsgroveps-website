@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Janet Cox</title>
+   	<link>../..</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>australian_black_swans</title>
+            <link>slides/australian_black_swans.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:08 +0100</pubDate>
+            <description>Australian Black Swans</description>
+            <media:description type="html">Australian Black Swans</media:description>
+            <media:thumbnail url="thumbs/australian_black_swans.jpg" width="70" height="100"/>
+            <media:content type="image/jpeg" url="slides/australian_black_swans.jpg" width="423" height="600"/>
+            <guid isPermaLink="false">slides/australian_black_swans.jpg</guid>
+        </item>
+        <item>
+            <title>butterfly_blue_morpho</title>
+            <link>slides/butterfly_blue_morpho.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:08 +0100</pubDate>
+            <description>Blue Morpho Butterfly</description>
+            <media:description type="html">Blue Morpho Butterfly</media:description>
+            <media:thumbnail url="thumbs/butterfly_blue_morpho.jpg" width="140" height="99"/>
+            <media:content type="image/jpeg" url="slides/butterfly_blue_morpho.jpg" width="640" height="453"/>
+            <guid isPermaLink="false">slides/butterfly_blue_morpho.jpg</guid>
+        </item>
+        <item>
+            <title>isambard_kingdom_brunel</title>
+            <link>slides/isambard_kingdom_brunel.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:08 +0100</pubDate>
+            <description>Isambard Kindgom Brunel</description>
+            <media:description type="html">Isambard Kindgom Brunel</media:description>
+            <media:thumbnail url="thumbs/isambard_kingdom_brunel.jpg" width="70" height="100"/>
+            <media:content type="image/jpeg" url="slides/isambard_kingdom_brunel.jpg" width="420" height="600"/>
+            <guid isPermaLink="false">slides/isambard_kingdom_brunel.jpg</guid>
+        </item>
+        <item>
+            <title>male_and_female_mallard</title>
+            <link>slides/male_and_female_mallard.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:08 +0100</pubDate>
+            <description>Pair of Mallards</description>
+            <media:description type="html">Pair of Mallards</media:description>
+            <media:thumbnail url="thumbs/male_and_female_mallard.jpg" width="139" height="100"/>
+            <media:content type="image/jpeg" url="slides/male_and_female_mallard.jpg" width="640" height="460"/>
+            <guid isPermaLink="false">slides/male_and_female_mallard.jpg</guid>
+        </item>
+        <item>
+            <title>practice_night</title>
+            <link>slides/practice_night.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:08 +0100</pubDate>
+            <description>Practice Night</description>
+            <media:description type="html">Practice Night</media:description>
+            <media:thumbnail url="thumbs/practice_night.jpg" width="140" height="98"/>
+            <media:content type="image/jpeg" url="slides/practice_night.jpg" width="640" height="452"/>
+            <guid isPermaLink="false">slides/practice_night.jpg</guid>
+        </item>
+        <item>
+            <title>still_life</title>
+            <link>slides/still_life.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:08 +0100</pubDate>
+            <description>Still Life</description>
+            <media:description type="html">Still Life</media:description>
+            <media:thumbnail url="thumbs/still_life.jpg" width="100" height="100"/>
+            <media:content type="image/jpeg" url="slides/still_life.jpg" width="600" height="600"/>
+            <guid isPermaLink="false">slides/still_life.jpg</guid>
+        </item>
+        <item>
+            <title>woodland_path</title>
+            <link>slides/woodland_path.jpg#</link>
+            <pubDate>Sun, 12 Jun 2011 20:36:08 +0100</pubDate>
+            <description>Woodland Path</description>
+            <media:description type="html">Woodland Path</media:description>
+            <media:thumbnail url="thumbs/woodland_path.jpg" width="70" height="100"/>
+            <media:content type="image/jpeg" url="slides/woodland_path.jpg" width="424" height="600"/>
+            <guid isPermaLink="false">slides/woodland_path.jpg</guid>
+        </item>
+    </channel>
+</rss>

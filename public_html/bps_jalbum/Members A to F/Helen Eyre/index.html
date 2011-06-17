@@ -30,20 +30,20 @@ var thumbHeight=100;
 var dirCount=0;
 var numberLinks=false;
 var images=new Array(
-	{file:'slides/belinda.jpg',video:false,thumb:'thumbs/belinda.jpg',caption:'<div class="comment">Belinda</div>',thmcapt:'<span class="nr">1</span>  <small>Belinda</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:349,height:480},
-	{file:'slides/at_the_end_of_the_day.jpg',video:false,thumb:'thumbs/at_the_end_of_the_day.jpg',caption:'<div class="comment">At the end of the day</div>',thmcapt:'<span class="nr">2</span>  <small>At the end of the day</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:341,height:480},
-	{file:'slides/bluebell_woods.jpg',video:false,thumb:'thumbs/bluebell_woods.jpg',caption:'<div class="comment">Bluebell Woods</div>',thmcapt:'<span class="nr">3</span>  <small>Bluebell Woods</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:427},
-	{file:'slides/charlie.jpg',video:false,thumb:'thumbs/charlie.jpg',caption:'<div class="comment">Charlie</div>',thmcapt:'<span class="nr">4</span>  <small>Charlie</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:424,height:480},
-	{file:'slides/gloucester_docks.jpg',video:false,thumb:'thumbs/gloucester_docks.jpg',caption:'<div class="comment">Gloucester Docks</div>',thmcapt:'<span class="nr">5</span>  <small>Gloucester Docks</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:480},
-	{file:'slides/hayley.jpg',video:false,thumb:'thumbs/hayley.jpg',caption:'<div class="comment">Hayley</div>',thmcapt:'<span class="nr">6</span>  <small>Hayley</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:457},
-	{file:'slides/portrait.jpg',video:false,thumb:'thumbs/portrait.jpg',caption:'<div class="comment">Portrait</div>',thmcapt:'<span class="nr">7</span>  <small>Portrait</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:343,height:480},
-	{file:'slides/venice_backstreet.jpg',video:false,thumb:'thumbs/venice_backstreet.jpg',caption:'<div class="comment">Venice Backstreet</div>',thmcapt:'<span class="nr">8</span>  <small>Venice Backstreet</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:330,height:480}
+	{file:'slides/belinda.jpg',video:false,thumb:'thumbs/belinda.jpg',caption:'<div class="comment">Belinda</div>',thmcapt:'<span class="nr">1</span>  <small>Belinda</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:349,height:480},
+	{file:'slides/at_the_end_of_the_day.jpg',video:false,thumb:'thumbs/at_the_end_of_the_day.jpg',caption:'<div class="comment">At the end of the day</div>',thmcapt:'<span class="nr">2</span>  <small>At the end of the day</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:341,height:480},
+	{file:'slides/bluebell_woods.jpg',video:false,thumb:'thumbs/bluebell_woods.jpg',caption:'<div class="comment">Bluebell Woods</div>',thmcapt:'<span class="nr">3</span>  <small>Bluebell Woods</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:427},
+	{file:'slides/charlie.jpg',video:false,thumb:'thumbs/charlie.jpg',caption:'<div class="comment">Charlie</div>',thmcapt:'<span class="nr">4</span>  <small>Charlie</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:424,height:480},
+	{file:'slides/gloucester_docks.jpg',video:false,thumb:'thumbs/gloucester_docks.jpg',caption:'<div class="comment">Gloucester Docks</div>',thmcapt:'<span class="nr">5</span>  <small>Gloucester Docks</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:480},
+	{file:'slides/hayley.jpg',video:false,thumb:'thumbs/hayley.jpg',caption:'<div class="comment">Hayley</div>',thmcapt:'<span class="nr">6</span>  <small>Hayley</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:457},
+	{file:'slides/portrait.jpg',video:false,thumb:'thumbs/portrait.jpg',caption:'<div class="comment">Portrait</div>',thmcapt:'<span class="nr">7</span>  <small>Portrait</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:343,height:480},
+	{file:'slides/venice_backstreet.jpg',video:false,thumb:'thumbs/venice_backstreet.jpg',caption:'<div class="comment">Venice Backstreet</div>',thmcapt:'<span class="nr">8</span>  <small>Venice Backstreet</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:330,height:480}
 );
 var _jaWidgetBarColor='white';
 var likeBtnTheme='light';
 var text={atLastPage:'At last page',atLastPageQuestion:'Where to go next?',startOver:'Start over',up:'Up one level',backToHome:'Back to home',stop:'Stop',upgradeBrowser:'Upgrade your browser!',upgradeBrowserExplain:'You are using an outdated version of Internet Explorer, which cannot properly display this album.',contin:'Continue',download:'Download',original:'Original',hiRes:'High Res',showExif:'Display photograpic (Exif/Iptc) data',photoData:'Photo data',showLocation:'Show the location on map',map:'Map',noGPS:'No GPS data found',buyThis:'Buy this item',notForSale:'Not for sale.',shareOn:'Share on',checkOutThis:'Check this out'};
 var share={likeBtn:false,tweetBtn:+false,facebook:false,twitter:false,digg:false,delicious:false,myspace:false,stumbleupon:false,email:false};
-var rightClickProtect=false;
+var rightClickProtect=true;
 //]]></script>
 <script type="text/javascript" src="../../res/skin.js"></script>
 <link rel="alternate" href="album.rss" type="application/rss+xml"/>

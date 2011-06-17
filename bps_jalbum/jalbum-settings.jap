@@ -1,5 +1,5 @@
 #jAlbum Project
-#Sat Jun 11 16:18:34 BST 2011
+#Fri Jun 17 20:53:22 BST 2011
 skin.splashDepthLevel=2
 skin.splashSize=900x400
 skin=Turtle
@@ -8,7 +8,7 @@ imageLinking=LinkScaled
 directory=/home/ml/BPS/Git/bromsgroveps-website/bps_jalbum
 skin.googleSiteID=
 skin.shareTwitter=false
-skin.rightClickProtect=false
+skin.rightClickProtect=true
 skin.fitImages=false
 skin.slideshowAuto=false
 skin.customLinkText=

@@ -30,21 +30,21 @@ var thumbHeight=100;
 var dirCount=0;
 var numberLinks=false;
 var images=new Array(
-	{file:'slides/bluegeyser.jpg',video:false,thumb:'thumbs/bluegeyser.jpg',caption:'<div class="comment">Blue Geyser</div>',thmcapt:'<span class="nr">1</span>  <small>Blue Geyser</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:500,height:185},
-	{file:'slides/contemplation.jpg',video:false,thumb:'thumbs/contemplation.jpg',caption:'<div class="comment">Contemplation</div>',thmcapt:'<span class="nr">2</span>  <small>Contemplation</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:291,height:500},
-	{file:'slides/highhimal.jpg',video:false,thumb:'thumbs/highhimal.jpg',caption:'<div class="comment">High Himalaya</div>',thmcapt:'<span class="nr">3</span>  <small>High Himalaya</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:500,height:333},
-	{file:'slides/icecrystals.jpg',video:false,thumb:'thumbs/icecrystals.jpg',caption:'<div class="comment">Ice Crystals</div>',thmcapt:'<span class="nr">4</span>  <small>Ice Crystals</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:500,height:333},
-	{file:'slides/macacasylvanus.jpg',video:false,thumb:'thumbs/macacasylvanus.jpg',caption:'<div class="comment">Macaca Sylvanus</div>',thmcapt:'<span class="nr">5</span>  <small>Macaca Sylvanus</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:357,height:400},
-	{file:'slides/mammothhotsprings.jpg',video:false,thumb:'thumbs/mammothhotsprings.jpg',caption:'<div class="comment">Mammoth Hot Springs</div>',thmcapt:'<span class="nr">6</span>  <small>Mammoth Hot Springs</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:333,height:500},
-	{file:'slides/onseaburnsands.jpg',video:false,thumb:'thumbs/onseaburnsands.jpg',caption:'<div class="comment">On Seaburn Sands</div>',thmcapt:'<span class="nr">7</span>  <small>On Seaburn Sands</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:500,height:147},
-	{file:'slides/silhouettesinwellington.jpg',video:false,thumb:'thumbs/silhouettesinwellington.jpg',caption:'<div class="comment">Silhouettes in Wellington</div>',thmcapt:'<span class="nr">8</span>  <small>Silhouettes in Wellington</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:400,height:326},
-	{file:'slides/trinidad.jpg',video:false,thumb:'thumbs/trinidad.jpg',caption:'<div class="comment">Trinidad</div>',thmcapt:'<span class="nr">9</span>  <small>Trinidad</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:352,height:500}
+	{file:'slides/bluegeyser.jpg',video:false,thumb:'thumbs/bluegeyser.jpg',caption:'<div class="comment">Blue Geyser</div>',thmcapt:'<span class="nr">1</span>  <small>Blue Geyser</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:500,height:185},
+	{file:'slides/contemplation.jpg',video:false,thumb:'thumbs/contemplation.jpg',caption:'<div class="comment">Contemplation</div>',thmcapt:'<span class="nr">2</span>  <small>Contemplation</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:291,height:500},
+	{file:'slides/highhimal.jpg',video:false,thumb:'thumbs/highhimal.jpg',caption:'<div class="comment">High Himalaya</div>',thmcapt:'<span class="nr">3</span>  <small>High Himalaya</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:500,height:333},
+	{file:'slides/icecrystals.jpg',video:false,thumb:'thumbs/icecrystals.jpg',caption:'<div class="comment">Ice Crystals</div>',thmcapt:'<span class="nr">4</span>  <small>Ice Crystals</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:500,height:333},
+	{file:'slides/macacasylvanus.jpg',video:false,thumb:'thumbs/macacasylvanus.jpg',caption:'<div class="comment">Macaca Sylvanus</div>',thmcapt:'<span class="nr">5</span>  <small>Macaca Sylvanus</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:357,height:400},
+	{file:'slides/mammothhotsprings.jpg',video:false,thumb:'thumbs/mammothhotsprings.jpg',caption:'<div class="comment">Mammoth Hot Springs</div>',thmcapt:'<span class="nr">6</span>  <small>Mammoth Hot Springs</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:333,height:500},
+	{file:'slides/onseaburnsands.jpg',video:false,thumb:'thumbs/onseaburnsands.jpg',caption:'<div class="comment">On Seaburn Sands</div>',thmcapt:'<span class="nr">7</span>  <small>On Seaburn Sands</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:500,height:147},
+	{file:'slides/silhouettesinwellington.jpg',video:false,thumb:'thumbs/silhouettesinwellington.jpg',caption:'<div class="comment">Silhouettes in Wellington</div>',thmcapt:'<span class="nr">8</span>  <small>Silhouettes in Wellington</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:400,height:326},
+	{file:'slides/trinidad.jpg',video:false,thumb:'thumbs/trinidad.jpg',caption:'<div class="comment">Trinidad</div>',thmcapt:'<span class="nr">9</span>  <small>Trinidad</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:352,height:500}
 );
 var _jaWidgetBarColor='white';
 var likeBtnTheme='light';
 var text={atLastPage:'At last page',atLastPageQuestion:'Where to go next?',startOver:'Start over',up:'Up one level',backToHome:'Back to home',stop:'Stop',upgradeBrowser:'Upgrade your browser!',upgradeBrowserExplain:'You are using an outdated version of Internet Explorer, which cannot properly display this album.',contin:'Continue',download:'Download',original:'Original',hiRes:'High Res',showExif:'Display photograpic (Exif/Iptc) data',photoData:'Photo data',showLocation:'Show the location on map',map:'Map',noGPS:'No GPS data found',buyThis:'Buy this item',notForSale:'Not for sale.',shareOn:'Share on',checkOutThis:'Check this out'};
 var share={likeBtn:false,tweetBtn:+false,facebook:false,twitter:false,digg:false,delicious:false,myspace:false,stumbleupon:false,email:false};
-var rightClickProtect=false;
+var rightClickProtect=true;
 //]]></script>
 <script type="text/javascript" src="../../res/skin.js"></script>
 <link rel="alternate" href="album.rss" type="application/rss+xml"/>

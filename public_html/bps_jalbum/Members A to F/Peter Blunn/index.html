@@ -30,20 +30,20 @@ var thumbHeight=100;
 var dirCount=0;
 var numberLinks=false;
 var images=new Array(
-	{file:'slides/fungi_in_the_light.jpg',video:false,thumb:'thumbs/fungi_in_the_light.jpg',caption:'<div class="comment">Fungi in the Light #1</div>',thmcapt:'<span class="nr">1</span>  <small>Fungi in the Light #1</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:427},
-	{file:'slides/fungi_in_the_light_2.jpg',video:false,thumb:'thumbs/fungi_in_the_light_2.jpg',caption:'<div class="comment">Fungi in the Light #2</div>',thmcapt:'<span class="nr">2</span>  <small>Fungi in the Light #2</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:349},
-	{file:'slides/one_good_tern_.jpg',video:false,thumb:'thumbs/one_good_tern_.jpg',caption:'<div class="comment">One Good Tern</div>',thmcapt:'<span class="nr">3</span>  <small>One Good Tern</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:388},
-	{file:'slides/vancouver_at_dusk.jpg',video:false,thumb:'thumbs/vancouver_at_dusk.jpg',caption:'<div class="comment">Vancouver at Dusk</div>',thmcapt:'<span class="nr">4</span>  <small>Vancouver at Dusk</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:425},
-	{file:'slides/headmaster_study.jpg',video:false,thumb:'thumbs/headmaster_study.jpg',caption:'<div class="comment">Headmaster&#39;s Study</div>',thmcapt:'<span class="nr">5</span>  <small>Headmaster&#39;s Study</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:431},
-	{file:'slides/ww_school_hawkshead.jpg',video:false,thumb:'thumbs/ww_school_hawkshead.jpg',caption:'<div class="comment">WW School Hawkshead</div>',thmcapt:'<span class="nr">6</span>  <small>WW School Hawkshead</small>',link:'',orig:false,date:'05/06/11 21:13',mod:15130,size:'',width:640,height:433},
-	{file:'slides/kayleigh.jpg',video:false,thumb:'thumbs/kayleigh.jpg',caption:'<div class="comment">Kayleigh</div>',thmcapt:'<span class="nr">7</span>  <small>Kayleigh</small>',link:'',orig:false,date:'10/06/11 21:26',mod:15135,size:'',width:543,height:433},
+	{file:'slides/fungi_in_the_light.jpg',video:false,thumb:'thumbs/fungi_in_the_light.jpg',caption:'<div class="comment">Fungi in the Light #1</div>',thmcapt:'<span class="nr">1</span>  <small>Fungi in the Light #1</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:427},
+	{file:'slides/fungi_in_the_light_2.jpg',video:false,thumb:'thumbs/fungi_in_the_light_2.jpg',caption:'<div class="comment">Fungi in the Light #2</div>',thmcapt:'<span class="nr">2</span>  <small>Fungi in the Light #2</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:349},
+	{file:'slides/one_good_tern_.jpg',video:false,thumb:'thumbs/one_good_tern_.jpg',caption:'<div class="comment">One Good Tern</div>',thmcapt:'<span class="nr">3</span>  <small>One Good Tern</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:388},
+	{file:'slides/vancouver_at_dusk.jpg',video:false,thumb:'thumbs/vancouver_at_dusk.jpg',caption:'<div class="comment">Vancouver at Dusk</div>',thmcapt:'<span class="nr">4</span>  <small>Vancouver at Dusk</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:425},
+	{file:'slides/headmaster_study.jpg',video:false,thumb:'thumbs/headmaster_study.jpg',caption:'<div class="comment">Headmaster&#39;s Study</div>',thmcapt:'<span class="nr">5</span>  <small>Headmaster&#39;s Study</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:431},
+	{file:'slides/ww_school_hawkshead.jpg',video:false,thumb:'thumbs/ww_school_hawkshead.jpg',caption:'<div class="comment">WW School Hawkshead</div>',thmcapt:'<span class="nr">6</span>  <small>WW School Hawkshead</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:640,height:433},
+	{file:'slides/kayleigh.jpg',video:false,thumb:'thumbs/kayleigh.jpg',caption:'<div class="comment">Kayleigh</div>',thmcapt:'<span class="nr">7</span>  <small>Kayleigh</small>',link:'',orig:false,date:'12/06/11 21:10',mod:15137,size:'',width:543,height:433},
 	{file:'slides/Starry Eyed Kayleigh.jpg',video:false,thumb:'thumbs/Starry Eyed Kayleigh.jpg',caption:'<div class="comment">Starry Eyed Kayleigh</div>',thmcapt:'<span class="nr">8</span>  <small>Starry Eyed Kayleigh</small>',link:'',orig:false,date:'',mod:15137,size:'',width:600,height:480}
 );
 var _jaWidgetBarColor='white';
 var likeBtnTheme='light';
 var text={atLastPage:'At last page',atLastPageQuestion:'Where to go next?',startOver:'Start over',up:'Up one level',backToHome:'Back to home',stop:'Stop',upgradeBrowser:'Upgrade your browser!',upgradeBrowserExplain:'You are using an outdated version of Internet Explorer, which cannot properly display this album.',contin:'Continue',download:'Download',original:'Original',hiRes:'High Res',showExif:'Display photograpic (Exif/Iptc) data',photoData:'Photo data',showLocation:'Show the location on map',map:'Map',noGPS:'No GPS data found',buyThis:'Buy this item',notForSale:'Not for sale.',shareOn:'Share on',checkOutThis:'Check this out'};
 var share={likeBtn:false,tweetBtn:+false,facebook:false,twitter:false,digg:false,delicious:false,myspace:false,stumbleupon:false,email:false};
-var rightClickProtect=false;
+var rightClickProtect=true;
 //]]></script>
 <script type="text/javascript" src="../../res/skin.js"></script>
 <link rel="alternate" href="album.rss" type="application/rss+xml"/>

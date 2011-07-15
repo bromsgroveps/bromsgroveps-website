@@ -10,7 +10,7 @@
         <item>
             <title>Grandads_Guiding_Hand</title>
             <link>slides/Grandads_Guiding_Hand.JPG#</link>
-            <pubDate>Fri, 17 Jun 2011 20:52:09 +0100</pubDate>
+            <pubDate>Fri, 15 Jul 2011 20:44:37 +0100</pubDate>
             <description>Grandad's Guiding Hand</description>
             <media:description type="html">Grandad's Guiding Hand</media:description>
             <media:thumbnail url="thumbs/Grandads_Guiding_Hand.JPG" width="100" height="100"/>
@@ -20,7 +20,7 @@
         <item>
             <title>lighthouseatbenodet</title>
             <link>slides/lighthouseatbenodet.jpg#</link>
-            <pubDate>Fri, 17 Jun 2011 20:52:09 +0100</pubDate>
+            <pubDate>Fri, 15 Jul 2011 20:44:37 +0100</pubDate>
             <description>Lighthouse at Benodet</description>
             <media:description type="html">Lighthouse at Benodet</media:description>
             <media:thumbnail url="thumbs/lighthouseatbenodet.jpg" width="65" height="100"/>
@@ -30,12 +30,52 @@
         <item>
             <title>lighthouseatbenodet2</title>
             <link>slides/lighthouseatbenodet2.jpg#</link>
-            <pubDate>Fri, 17 Jun 2011 20:52:09 +0100</pubDate>
+            <pubDate>Fri, 15 Jul 2011 20:44:37 +0100</pubDate>
             <description>Lighthouse at Benodet 2</description>
             <media:description type="html">Lighthouse at Benodet 2</media:description>
             <media:thumbnail url="thumbs/lighthouseatbenodet2.jpg" width="66" height="100"/>
             <media:content type="image/jpeg" url="slides/lighthouseatbenodet2.jpg" width="320" height="480"/>
             <guid isPermaLink="false">slides/lighthouseatbenodet2.jpg</guid>
+        </item>
+        <item>
+            <title>SoftFocusKayleigh</title>
+            <link>slides/SoftFocusKayleigh.jpg#</link>
+            <pubDate>Fri, 15 Jul 2011 20:44:37 +0100</pubDate>
+            <description>Soft Focus Kayleigh</description>
+            <media:description type="html">Soft Focus Kayleigh</media:description>
+            <media:thumbnail url="thumbs/SoftFocusKayleigh.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/SoftFocusKayleigh.jpg" width="899" height="600"/>
+            <guid isPermaLink="false">slides/SoftFocusKayleigh.jpg</guid>
+        </item>
+        <item>
+            <title>BedOfBricks</title>
+            <link>slides/BedOfBricks.jpg#</link>
+            <pubDate>Fri, 15 Jul 2011 20:44:37 +0100</pubDate>
+            <description>Bed of Bricks</description>
+            <media:description type="html">Bed of Bricks</media:description>
+            <media:thumbnail url="thumbs/BedOfBricks.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/BedOfBricks.jpg" width="899" height="600"/>
+            <guid isPermaLink="false">slides/BedOfBricks.jpg</guid>
+        </item>
+        <item>
+            <title>BeachHuts</title>
+            <link>slides/BeachHuts.jpg#</link>
+            <pubDate>Fri, 15 Jul 2011 20:44:37 +0100</pubDate>
+            <description>Beach Huts at Exmouth</description>
+            <media:description type="html">Beach Huts at Exmouth</media:description>
+            <media:thumbnail url="thumbs/BeachHuts.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/BeachHuts.jpg" width="899" height="600"/>
+            <guid isPermaLink="false">slides/BeachHuts.jpg</guid>
+        </item>
+        <item>
+            <title>TheBadGuys</title>
+            <link>slides/TheBadGuys.jpg#</link>
+            <pubDate>Fri, 15 Jul 2011 20:44:37 +0100</pubDate>
+            <description>The Bad Guys</description>
+            <media:description type="html">The Bad Guys</media:description>
+            <media:thumbnail url="thumbs/TheBadGuys.jpg" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/TheBadGuys.jpg" width="900" height="599"/>
+            <guid isPermaLink="false">slides/TheBadGuys.jpg</guid>
         </item>
     </channel>
 </rss>

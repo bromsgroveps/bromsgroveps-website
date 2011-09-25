@@ -2,16 +2,16 @@
 <java version="1.6.0_26" class="java.beans.XMLDecoder"> 
  <object class="java.util.HashMap"> 
   <void method="put"> 
-   <string>imageSettingsHash</string> 
-   <string>b356572c519cb7f5bfa2f869c528cfdf</string> 
-  </void> 
-  <void method="put"> 
    <string>title</string> 
    <string>Bromsgrove Photographic Society</string> 
   </void> 
   <void method="put"> 
+   <string>imageSettingsHash</string> 
+   <string>b356572c519cb7f5bfa2f869c528cfdf</string> 
+  </void> 
+  <void method="put"> 
    <string>lastSplashPath</string> 
-   <string>Members G to L/Barry Green ARPS EFIAP b/joslingforposition.jpg</string> 
+   <string>Club Competition Winners/2011/Feeling-Blue.jpg</string> 
   </void> 
   <void method="put"> 
    <string>imageLinking</string> 

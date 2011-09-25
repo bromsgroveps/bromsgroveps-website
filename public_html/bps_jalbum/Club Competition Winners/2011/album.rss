@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>2011</title>
+   	<link>../..</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>Feeling-Blue</title>
+            <link>slides/Feeling-Blue.jpg#</link>
+            <pubDate>Sun, 25 Sep 2011 13:12:26 +0100</pubDate>
+            <description>Feeling Blue - by Andy Kent - 2011 1st Print Competition - Colour Section - Winner</description>
+            <media:description type="html">Feeling Blue - by Andy Kent - 2011 1st Print Competition - Colour Section - Winner</media:description>
+            <media:thumbnail url="thumbs/Feeling-Blue.jpg" width="140" height="92"/>
+            <media:content type="image/jpeg" url="slides/Feeling-Blue.jpg" width="900" height="596"/>
+            <guid isPermaLink="false">slides/Feeling-Blue.jpg</guid>
+        </item>
+        <item>
+            <title>Impale</title>
+            <link>slides/Impale.jpg#</link>
+            <pubDate>Sun, 25 Sep 2011 13:12:26 +0100</pubDate>
+            <description>Impale - by Andy Kent - 2011 1st Print Competition - Mono Section - Commended</description>
+            <media:description type="html">Impale - by Andy Kent - 2011 1st Print Competition - Mono Section - Commended</media:description>
+            <media:thumbnail url="thumbs/Impale.jpg" width="70" height="100"/>
+            <media:content type="image/jpeg" url="slides/Impale.jpg" width="421" height="600"/>
+            <guid isPermaLink="false">slides/Impale.jpg</guid>
+        </item>
+        <item>
+            <title>Lone-Swan</title>
+            <link>slides/Lone-Swan.jpg#</link>
+            <pubDate>Sun, 25 Sep 2011 13:12:26 +0100</pubDate>
+            <description>Lone Swan - by Andy Kent - 2011 1st Print Competition - Nature Section - Third Place</description>
+            <media:description type="html">Lone Swan - by Andy Kent - 2011 1st Print Competition - Nature Section - Third Place</media:description>
+            <media:thumbnail url="thumbs/Lone-Swan.jpg" width="140" height="61"/>
+            <media:content type="image/jpeg" url="slides/Lone-Swan.jpg" width="900" height="396"/>
+            <guid isPermaLink="false">slides/Lone-Swan.jpg</guid>
+        </item>
+    </channel>
+</rss>

@@ -7,9 +7,9 @@
    	<link>.</link>
         <generator>jAlbum 9</generator>
    		<description>Members Gallery</description>
+    	<jalbum:link rel="sub" href="Club Competition Winners/album.rss" />   	
     	<jalbum:link rel="sub" href="Members A to F/album.rss" />   	
-    	<jalbum:link rel="sub" href="Members G to L/album.rss" />   	
-    	<jalbum:link rel="sub" href="Members M to R/album.rss" />   	
+    	<jalbum:link rel="sub" href="Members G to R/album.rss" />   	
     	<jalbum:link rel="sub" href="Members S to Z/album.rss" />   	
         
     </channel>

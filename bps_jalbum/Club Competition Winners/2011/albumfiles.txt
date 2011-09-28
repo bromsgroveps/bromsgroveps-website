@@ -7,5 +7,7 @@
 # allows you to compile albums consisting of files from several different locations.
 
 Feeling-Blue.jpg
+Gypsy Cowboy, Appleby Horse Fair.jpg
+Mayflower.jpg
 Impale.jpg
 Lone-Swan.jpg

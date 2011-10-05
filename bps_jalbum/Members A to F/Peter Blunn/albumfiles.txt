@@ -6,6 +6,8 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
+Sophisticated Leah.jpg
+Leah 20's look.jpg
 fungi_in_the_light.jpg
 fungi_in_the_light_2.jpg
 one_good_tern_.jpg
@@ -15,3 +17,5 @@ ww_school_hawkshead.jpg
 kayleigh.jpg
 Starry Eyed Kayleigh.jpg
 Bean with Zip.jpg
+Un-Zip-A-Peapod.jpg
+Un-Zip-a-Banana.jpg

@@ -8,124 +8,199 @@
         <generator>jAlbum 9</generator>
    		<description></description>
         <item>
-            <title>broadway_tower</title>
-            <link>slides/broadway_tower.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Broadway Tower</description>
-            <media:description type="html">Broadway Tower</media:description>
-            <media:thumbnail url="thumbs/broadway_tower.jpg" width="140" height="87"/>
-            <media:content type="image/jpeg" url="slides/broadway_tower.jpg" width="640" height="400"/>
-            <guid isPermaLink="false">slides/broadway_tower.jpg</guid>
+            <title>Sophie</title>
+            <link>slides/Sophie.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Sophie</description>
+            <media:description type="html">Sophie</media:description>
+            <media:thumbnail url="thumbs/Sophie.JPG" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/Sophie.JPG" width="900" height="599"/>
+            <jalbum:exif originalDate="01/02/11 20:06" cameraMake="Canon" cameraModel="Canon EOS 5D Mark II"/>
+            <guid isPermaLink="false">slides/Sophie.JPG</guid>
         </item>
         <item>
-            <title>broadway_woods</title>
-            <link>slides/broadway_woods.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Broadway Woods</description>
-            <media:description type="html">Broadway Woods</media:description>
-            <media:thumbnail url="thumbs/broadway_woods.jpg" width="66" height="100"/>
-            <media:content type="image/jpeg" url="slides/broadway_woods.jpg" width="399" height="600"/>
-            <guid isPermaLink="false">slides/broadway_woods.jpg</guid>
+            <title>Old Pals</title>
+            <link>slides/Old Pals.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Old Pals</description>
+            <media:description type="html">Old Pals</media:description>
+            <media:thumbnail url="thumbs/Old Pals.JPG" width="136" height="100"/>
+            <media:content type="image/jpeg" url="slides/Old Pals.JPG" width="816" height="600"/>
+            <jalbum:exif originalDate="02/07/11 10:37" cameraMake="Canon" cameraModel="Canon PowerShot G10"/>
+            <guid isPermaLink="false">slides/Old Pals.JPG</guid>
         </item>
         <item>
-            <title>brockhampton_manor</title>
-            <link>slides/brockhampton_manor.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Brockhampton Manor</description>
-            <media:description type="html">Brockhampton Manor</media:description>
-            <media:thumbnail url="thumbs/brockhampton_manor.jpg" width="140" height="90"/>
-            <media:content type="image/jpeg" url="slides/brockhampton_manor.jpg" width="640" height="415"/>
-            <guid isPermaLink="false">slides/brockhampton_manor.jpg</guid>
+            <title>Shadows</title>
+            <link>slides/Shadows.jpg#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Shadows</description>
+            <media:description type="html">Shadows</media:description>
+            <media:thumbnail url="thumbs/Shadows.jpg" width="64" height="100"/>
+            <media:content type="image/jpeg" url="slides/Shadows.jpg" width="387" height="600"/>
+            <jalbum:exif originalDate="11/11/09 17:55" cameraMake="Canon" cameraModel="Canon EOS 450D"/>
+            <guid isPermaLink="false">slides/Shadows.jpg</guid>
         </item>
         <item>
-            <title>cricceth</title>
-            <link>slides/cricceth.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Cricceth</description>
-            <media:description type="html">Cricceth</media:description>
-            <media:thumbnail url="thumbs/cricceth.jpg" width="140" height="55"/>
-            <media:content type="image/jpeg" url="slides/cricceth.jpg" width="640" height="253"/>
-            <guid isPermaLink="false">slides/cricceth.jpg</guid>
+            <title>Leah</title>
+            <link>slides/Leah.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Leah</description>
+            <media:description type="html">Leah</media:description>
+            <media:thumbnail url="thumbs/Leah.JPG" width="66" height="100"/>
+            <media:content type="image/jpeg" url="slides/Leah.JPG" width="399" height="600"/>
+            <jalbum:exif originalDate="27/09/11 19:32" cameraMake="Canon" cameraModel="Canon EOS 7D"/>
+            <guid isPermaLink="false">slides/Leah.JPG</guid>
         </item>
         <item>
-            <title>europeaneagle_owl</title>
-            <link>slides/europeaneagle_owl.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>European Eagle Owl</description>
-            <media:description type="html">European Eagle Owl</media:description>
-            <media:thumbnail url="thumbs/europeaneagle_owl.jpg" width="66" height="100"/>
-            <media:content type="image/jpeg" url="slides/europeaneagle_owl.jpg" width="400" height="600"/>
-            <guid isPermaLink="false">slides/europeaneagle_owl.jpg</guid>
+            <title>Bembridge Dawn</title>
+            <link>slides/Bembridge Dawn.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Bembridge Dawn</description>
+            <media:description type="html">Bembridge Dawn</media:description>
+            <media:thumbnail url="thumbs/Bembridge Dawn.JPG" width="140" height="91"/>
+            <media:content type="image/jpeg" url="slides/Bembridge Dawn.JPG" width="900" height="588"/>
+            <guid isPermaLink="false">slides/Bembridge Dawn.JPG</guid>
         </item>
         <item>
-            <title>heritage_car_museum</title>
-            <link>slides/heritage_car_museum.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Heritage Car Museum</description>
-            <media:description type="html">Heritage Car Museum</media:description>
-            <media:thumbnail url="thumbs/heritage_car_museum.jpg" width="140" height="93"/>
-            <media:content type="image/jpeg" url="slides/heritage_car_museum.jpg" width="640" height="426"/>
-            <guid isPermaLink="false">slides/heritage_car_museum.jpg</guid>
+            <title>Old Salt</title>
+            <link>slides/Old Salt.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Old Salt</description>
+            <media:description type="html">Old Salt</media:description>
+            <media:thumbnail url="thumbs/Old Salt.JPG" width="65" height="100"/>
+            <media:content type="image/jpeg" url="slides/Old Salt.JPG" width="395" height="600"/>
+            <jalbum:exif originalDate="15/06/10 19:32" cameraMake="Canon" cameraModel="Canon EOS 5D Mark II"/>
+            <guid isPermaLink="false">slides/Old Salt.JPG</guid>
         </item>
         <item>
-            <title>morecambe_bay_sunset</title>
-            <link>slides/morecambe_bay_sunset.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Morcambe Bay Sunset</description>
-            <media:description type="html">Morcambe Bay Sunset</media:description>
-            <media:thumbnail url="thumbs/morecambe_bay_sunset.jpg" width="140" height="93"/>
-            <media:content type="image/jpeg" url="slides/morecambe_bay_sunset.jpg" width="640" height="426"/>
-            <guid isPermaLink="false">slides/morecambe_bay_sunset.jpg</guid>
+            <title>Victorian Parlour</title>
+            <link>slides/Victorian Parlour.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Victorian Parlour</description>
+            <media:description type="html">Victorian Parlour</media:description>
+            <media:thumbnail url="thumbs/Victorian Parlour.JPG" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/Victorian Parlour.JPG" width="900" height="599"/>
+            <jalbum:exif originalDate="18/06/10 10:37" cameraMake="Canon" cameraModel="Canon EOS 5D Mark II"/>
+            <guid isPermaLink="false">slides/Victorian Parlour.JPG</guid>
         </item>
         <item>
-            <title>pengarreg_sunset</title>
-            <link>slides/pengarreg_sunset.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Pengarreg Sunset</description>
-            <media:description type="html">Pengarreg Sunset</media:description>
-            <media:thumbnail url="thumbs/pengarreg_sunset.jpg" width="72" height="100"/>
-            <media:content type="image/jpeg" url="slides/pengarreg_sunset.jpg" width="437" height="600"/>
-            <guid isPermaLink="false">slides/pengarreg_sunset.jpg</guid>
+            <title>Dawn Patrol</title>
+            <link>slides/Dawn Patrol.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Dawn Patrol</description>
+            <media:description type="html">Dawn Patrol</media:description>
+            <media:thumbnail url="thumbs/Dawn Patrol.JPG" width="66" height="100"/>
+            <media:content type="image/jpeg" url="slides/Dawn Patrol.JPG" width="399" height="600"/>
+            <jalbum:exif originalDate="19/12/10 08:06" cameraMake="Canon" cameraModel="Canon EOS 7D"/>
+            <guid isPermaLink="false">slides/Dawn Patrol.JPG</guid>
         </item>
         <item>
-            <title>queens_head</title>
-            <link>slides/queens_head.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Queen's Head</description>
-            <media:description type="html">Queen's Head</media:description>
-            <media:thumbnail url="thumbs/queens_head.jpg" width="66" height="100"/>
-            <media:content type="image/jpeg" url="slides/queens_head.jpg" width="399" height="600"/>
-            <guid isPermaLink="false">slides/queens_head.jpg</guid>
+            <title>Beach Huts</title>
+            <link>slides/Beach Huts.jpg#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Beach Huts</description>
+            <media:description type="html">Beach Huts</media:description>
+            <media:thumbnail url="thumbs/Beach Huts.jpg" width="140" height="84"/>
+            <media:content type="image/jpeg" url="slides/Beach Huts.jpg" width="900" height="540"/>
+            <jalbum:exif originalDate="28/05/11 10:24" cameraMake="Canon" cameraModel="Canon EOS 7D"/>
+            <guid isPermaLink="false">slides/Beach Huts.jpg</guid>
         </item>
         <item>
-            <title>supper_anyone</title>
-            <link>slides/supper_anyone.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Supper Anyone</description>
-            <media:description type="html">Supper Anyone</media:description>
-            <media:thumbnail url="thumbs/supper_anyone.jpg" width="67" height="100"/>
-            <media:content type="image/jpeg" url="slides/supper_anyone.jpg" width="405" height="600"/>
-            <guid isPermaLink="false">slides/supper_anyone.jpg</guid>
+            <title>The Tunnel</title>
+            <link>slides/The Tunnel.jpg#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>The Tunnel</description>
+            <media:description type="html">The Tunnel</media:description>
+            <media:thumbnail url="thumbs/The Tunnel.jpg" width="64" height="100"/>
+            <media:content type="image/jpeg" url="slides/The Tunnel.jpg" width="385" height="600"/>
+            <jalbum:exif originalDate="31/10/10 15:17" cameraMake="Canon" cameraModel="Canon EOS 7D"/>
+            <guid isPermaLink="false">slides/The Tunnel.jpg</guid>
         </item>
         <item>
-            <title>table_for_two</title>
-            <link>slides/table_for_two.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Table for Two</description>
-            <media:description type="html">Table for Two</media:description>
-            <media:thumbnail url="thumbs/table_for_two.jpg" width="73" height="100"/>
-            <media:content type="image/jpeg" url="slides/table_for_two.jpg" width="440" height="600"/>
-            <guid isPermaLink="false">slides/table_for_two.jpg</guid>
+            <title>HerringFleet Mill</title>
+            <link>slides/HerringFleet Mill.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>HerringFleet Mill</description>
+            <media:description type="html">HerringFleet Mill</media:description>
+            <media:thumbnail url="thumbs/HerringFleet Mill.JPG" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/HerringFleet Mill.JPG" width="900" height="599"/>
+            <jalbum:exif originalDate="25/05/11 10:43" cameraMake="Canon" cameraModel="Canon EOS 5D Mark II"/>
+            <guid isPermaLink="false">slides/HerringFleet Mill.JPG</guid>
         </item>
         <item>
-            <title>walk_on_the_brightside</title>
-            <link>slides/walk_on_the_brightside.jpg#</link>
-            <pubDate>Wed, 05 Oct 2011 20:06:47 +0100</pubDate>
-            <description>Walk on the Bright Side</description>
-            <media:description type="html">Walk on the Bright Side</media:description>
-            <media:thumbnail url="thumbs/walk_on_the_brightside.jpg" width="75" height="100"/>
-            <media:content type="image/jpeg" url="slides/walk_on_the_brightside.jpg" width="450" height="600"/>
-            <guid isPermaLink="false">slides/walk_on_the_brightside.jpg</guid>
+            <title>Bembridge Sunrise</title>
+            <link>slides/Bembridge Sunrise.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Bembridge Sunrise</description>
+            <media:description type="html">Bembridge Sunrise</media:description>
+            <media:thumbnail url="thumbs/Bembridge Sunrise.JPG" width="65" height="100"/>
+            <media:content type="image/jpeg" url="slides/Bembridge Sunrise.JPG" width="394" height="600"/>
+            <guid isPermaLink="false">slides/Bembridge Sunrise.JPG</guid>
+        </item>
+        <item>
+            <title>Seamens Chapel</title>
+            <link>slides/Seamens Chapel.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Seamens Chapel</description>
+            <media:description type="html">Seamens Chapel</media:description>
+            <media:thumbnail url="thumbs/Seamens Chapel.JPG" width="64" height="100"/>
+            <media:content type="image/jpeg" url="slides/Seamens Chapel.JPG" width="387" height="600"/>
+            <guid isPermaLink="false">slides/Seamens Chapel.JPG</guid>
+        </item>
+        <item>
+            <title>Old Colwyn</title>
+            <link>slides/Old Colwyn.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Old Colwyn</description>
+            <media:description type="html">Old Colwyn</media:description>
+            <media:thumbnail url="thumbs/Old Colwyn.JPG" width="140" height="93"/>
+            <media:content type="image/jpeg" url="slides/Old Colwyn.JPG" width="900" height="599"/>
+            <jalbum:exif originalDate="01/05/10 07:31" cameraMake="Canon" cameraModel="Canon EOS 450D"/>
+            <guid isPermaLink="false">slides/Old Colwyn.JPG</guid>
+        </item>
+        <item>
+            <title>Thurne Sunset</title>
+            <link>slides/Thurne Sunset.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Thurne Sunset</description>
+            <media:description type="html">Thurne Sunset</media:description>
+            <media:thumbnail url="thumbs/Thurne Sunset.JPG" width="140" height="91"/>
+            <media:content type="image/jpeg" url="slides/Thurne Sunset.JPG" width="900" height="586"/>
+            <jalbum:exif originalDate="19/05/11 18:52" cameraMake="Canon" cameraModel="Canon EOS 5D Mark II"/>
+            <guid isPermaLink="false">slides/Thurne Sunset.JPG</guid>
+        </item>
+        <item>
+            <title>Sidmouth Boat</title>
+            <link>slides/Sidmouth Boat.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Sidmouth Boat</description>
+            <media:description type="html">Sidmouth Boat</media:description>
+            <media:thumbnail url="thumbs/Sidmouth Boat.JPG" width="75" height="100"/>
+            <media:content type="image/jpeg" url="slides/Sidmouth Boat.JPG" width="450" height="600"/>
+            <jalbum:exif originalDate="22/11/08 13:04" cameraMake="Canon" cameraModel="Canon EOS 450D"/>
+            <guid isPermaLink="false">slides/Sidmouth Boat.JPG</guid>
+        </item>
+        <item>
+            <title>Solitary Man</title>
+            <link>slides/Solitary Man.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Solitary Man</description>
+            <media:description type="html">Solitary Man</media:description>
+            <media:thumbnail url="thumbs/Solitary Man.JPG" width="74" height="100"/>
+            <media:content type="image/jpeg" url="slides/Solitary Man.JPG" width="447" height="600"/>
+            <jalbum:exif originalDate="03/12/10 10:12" cameraMake="Canon" cameraModel="Canon PowerShot G10"/>
+            <guid isPermaLink="false">slides/Solitary Man.JPG</guid>
+        </item>
+        <item>
+            <title>Steeping Sunset</title>
+            <link>slides/Steeping Sunset.JPG#</link>
+            <pubDate>Thu, 20 Oct 2011 20:55:13 +0100</pubDate>
+            <description>Steeping Sunset</description>
+            <media:description type="html">Steeping Sunset</media:description>
+            <media:thumbnail url="thumbs/Steeping Sunset.JPG" width="140" height="85"/>
+            <media:content type="image/jpeg" url="slides/Steeping Sunset.JPG" width="900" height="550"/>
+            <jalbum:exif originalDate="30/06/11 20:06" cameraMake="Canon" cameraModel="Canon EOS 5D Mark II"/>
+            <guid isPermaLink="false">slides/Steeping Sunset.JPG</guid>
         </item>
     </channel>
 </rss>

@@ -8,20 +8,9 @@
         <generator>jAlbum 9</generator>
    		<description></description>
         <item>
-            <title>posing</title>
-            <link>slides/posing.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
-            <description>Posing</description>
-            <media:description type="html">Posing</media:description>
-            <media:thumbnail url="thumbs/posing.jpg" width="100" height="100"/>
-            <media:content type="image/jpeg" url="slides/posing.jpg" width="600" height="600"/>
-            <jalbum:exif originalDate="22/09/11 11:45" cameraMake="NIKON CORPORATION" cameraModel="NIKON D200"/>
-            <guid isPermaLink="false">slides/posing.jpg</guid>
-        </item>
-        <item>
             <title>Black and White</title>
             <link>slides/Black and White.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
             <description>Black and White</description>
             <media:description type="html">Black and White</media:description>
             <media:thumbnail url="thumbs/Black and White.jpg" width="67" height="100"/>
@@ -30,20 +19,20 @@
             <guid isPermaLink="false">slides/Black and White.jpg</guid>
         </item>
         <item>
-            <title>poppy</title>
-            <link>slides/poppy.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
-            <description>Poppy</description>
-            <media:description type="html">Poppy</media:description>
-            <media:thumbnail url="thumbs/poppy.jpg" width="133" height="100"/>
-            <media:content type="image/jpeg" url="slides/poppy.jpg" width="800" height="600"/>
-            <jalbum:exif originalDate="28/06/10 18:48" cameraMake="NIKON CORPORATION" cameraModel="NIKON D200"/>
-            <guid isPermaLink="false">slides/poppy.jpg</guid>
+            <title>Give us a Light!</title>
+            <link>slides/Give us a Light!.jpg#</link>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
+            <description>Give us a Light!</description>
+            <media:description type="html">Give us a Light!</media:description>
+            <media:thumbnail url="thumbs/Give us a Light!.jpg" width="75" height="100"/>
+            <media:content type="image/jpeg" url="slides/Give us a Light!.jpg" width="450" height="600"/>
+            <jalbum:exif originalDate="07/08/10 12:11" cameraMake="NIKON CORPORATION" cameraModel="NIKON D200"/>
+            <guid isPermaLink="false">slides/Give us a Light!.jpg</guid>
         </item>
         <item>
             <title>Leah</title>
             <link>slides/Leah.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
             <description>Leah</description>
             <media:description type="html">Leah</media:description>
             <media:thumbnail url="thumbs/Leah.jpg" width="98" height="100"/>
@@ -52,9 +41,31 @@
             <guid isPermaLink="false">slides/Leah.jpg</guid>
         </item>
         <item>
+            <title>posing</title>
+            <link>slides/posing.jpg#</link>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
+            <description>Posing</description>
+            <media:description type="html">Posing</media:description>
+            <media:thumbnail url="thumbs/posing.jpg" width="100" height="100"/>
+            <media:content type="image/jpeg" url="slides/posing.jpg" width="600" height="600"/>
+            <jalbum:exif originalDate="22/09/11 11:45" cameraMake="NIKON CORPORATION" cameraModel="NIKON D200"/>
+            <guid isPermaLink="false">slides/posing.jpg</guid>
+        </item>
+        <item>
+            <title>poppy</title>
+            <link>slides/poppy.jpg#</link>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
+            <description>Poppy</description>
+            <media:description type="html">Poppy</media:description>
+            <media:thumbnail url="thumbs/poppy.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/poppy.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="28/06/10 18:48" cameraMake="NIKON CORPORATION" cameraModel="NIKON D200"/>
+            <guid isPermaLink="false">slides/poppy.jpg</guid>
+        </item>
+        <item>
             <title>Keep Away</title>
             <link>slides/Keep Away.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
             <description>Keep Away</description>
             <media:description type="html">Keep Away</media:description>
             <media:thumbnail url="thumbs/Keep Away.jpg" width="133" height="100"/>
@@ -63,20 +74,9 @@
             <guid isPermaLink="false">slides/Keep Away.jpg</guid>
         </item>
         <item>
-            <title>Jack the Lad</title>
-            <link>slides/Jack the Lad.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
-            <description>Jack the Lad</description>
-            <media:description type="html">Jack the Lad</media:description>
-            <media:thumbnail url="thumbs/Jack the Lad.jpg" width="133" height="100"/>
-            <media:content type="image/jpeg" url="slides/Jack the Lad.jpg" width="800" height="600"/>
-            <jalbum:exif originalDate="09/08/08 17:28" cameraMake="NIKON CORPORATION" cameraModel="NIKON D100"/>
-            <guid isPermaLink="false">slides/Jack the Lad.jpg</guid>
-        </item>
-        <item>
             <title>He's My Man</title>
             <link>slides/He's My Man.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
             <description>He's My Man</description>
             <media:description type="html">He's My Man</media:description>
             <media:thumbnail url="thumbs/He's My Man.jpg" width="133" height="100"/>
@@ -87,7 +87,7 @@
         <item>
             <title>Green Bottle</title>
             <link>slides/Green Bottle.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
             <description>Green Bottle</description>
             <media:description type="html">Green Bottle</media:description>
             <media:thumbnail url="thumbs/Green Bottle.jpg" width="66" height="100"/>
@@ -96,20 +96,20 @@
             <guid isPermaLink="false">slides/Green Bottle.jpg</guid>
         </item>
         <item>
-            <title>Give us a Light!</title>
-            <link>slides/Give us a Light!.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
-            <description>Give us a Light!</description>
-            <media:description type="html">Give us a Light!</media:description>
-            <media:thumbnail url="thumbs/Give us a Light!.jpg" width="75" height="100"/>
-            <media:content type="image/jpeg" url="slides/Give us a Light!.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="07/08/10 12:11" cameraMake="NIKON CORPORATION" cameraModel="NIKON D200"/>
-            <guid isPermaLink="false">slides/Give us a Light!.jpg</guid>
+            <title>Jack the Lad</title>
+            <link>slides/Jack the Lad.jpg#</link>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
+            <description>Jack the Lad</description>
+            <media:description type="html">Jack the Lad</media:description>
+            <media:thumbnail url="thumbs/Jack the Lad.jpg" width="133" height="100"/>
+            <media:content type="image/jpeg" url="slides/Jack the Lad.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="09/08/08 17:28" cameraMake="NIKON CORPORATION" cameraModel="NIKON D100"/>
+            <guid isPermaLink="false">slides/Jack the Lad.jpg</guid>
         </item>
         <item>
             <title>Franka</title>
             <link>slides/Franka.jpg#</link>
-            <pubDate>Fri, 02 Dec 2011 20:04:39 +0000</pubDate>
+            <pubDate>Fri, 02 Dec 2011 20:18:41 +0000</pubDate>
             <description>Franka</description>
             <media:description type="html">Franka</media:description>
             <media:thumbnail url="thumbs/Franka.jpg" width="100" height="100"/>

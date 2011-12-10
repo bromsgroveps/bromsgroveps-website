@@ -14,8 +14,20 @@
    <string>Members A to F/Colin Close AFIAP CPAGB LRPS/He&apos;s My Man.jpg</string> 
   </void> 
   <void method="put"> 
+   <string>lastFolderThumbSize</string> 
+   <string>240x240</string> 
+  </void> 
+  <void method="put"> 
    <string>imageLinking</string> 
    <string>LinkScaled</string> 
+  </void> 
+  <void method="put"> 
+   <string>lastFolderImagePath</string> 
+   <string>Members A to F/Colin Close AFIAP CPAGB LRPS/He&apos;s My Man.jpg</string> 
+  </void> 
+  <void method="put"> 
+   <string>lastFolderImageSize</string> 
+   <string>900x400</string> 
   </void> 
   <void method="put"> 
    <string>lastSplashSize</string> 

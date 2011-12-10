@@ -1,102 +1,205 @@
 @charset "utf-8";
 
-body {
+.rgba #index header .title {
+	background-image:none;
+	background-color:rgba(255,255,255,0.6);
 	color:#000;
 }
-#hint {
-	color:#fff;
-	background-image:url(k60.png);
-}
-#hint a {
-	color:#fff;
-}
-#hint span {
-	background-color:#fff;
-	color:#000;
-}
-#splash #header {
-	background-color:#fff;
-}
-#splash #header #title {
+.no-rgba #index header .title {
 	background-image:url(w60.png);
 	color:#000;
 }
-#splash #header #starttext {
-	color:#fff;
+
+.hint {
+	color:#ddd;
+	background-color:rgba(0,0,0,0.8);
 }
-#splash #galleries td.folder {
-	background-image:url(w80.png);
-}
-#splash #galleries td.folder:hover {
-	background-image:url(k20.png);
-}
-.scrbar {
-	background-image:url(w80.png);
-}
-#images a {
-	color:#000;
-}
-#controls {
-	background-image:url(w80.png);
-}
-#thumbs {
-	background-image:url(w80.png);
-}
-ul.thmb li:hover {
-	background-color:#fff;
-}
-ul.thmb li.active {
-	background-color:#9a9284;
-}
-ul.thmb li a span {
-	color:#fff;
-}
-#images .caption {
-	color:#000;
-	background-image:url(w80.png);
-}
-#images .caption .menu div.shares,
-#images .caption .menu a.btn {
-	background-color:#fff;
-	border:1px solid #ddd;
-	color:#333;
-}
-#images .caption .menu a.btn:hover {
-	border:1px solid #fff;
-}
-#images .caption .menu a.active {
-	border:1px solid #9a9284;
-	color:#000;
-}
-#images .caption .menu span.nr {
+.no-rgba .hint {
+	background-color:transparent;
 	background-image:url(k80.png);
 }
-#images .caption .meta {
-	color:#666;
+.hint a {
+	color:#fff;
 }
-#images .caption .meta b {
+
+.rgba .thumbs a,
+.rgba .folders ul li {
+	background-color:rgba(255,255,255,0.6);
+}
+.no-rgba .thumbs a,
+.no-rgba .folders ul li {
+	background-color:transparent;
+	background-image:url(w60.png);
+}
+.rgba .thumbs a:hover,
+.rgba .thumbs a:focus,
+.folders ul li:hover {
+	background-color:rgba(255,255,255,0.8);
+	outline:none;
 	color:#000;
 }
-#images .caption .shop form #shopSelect,
-#images .caption .shop form #shopQuantity,
-#images .caption .shop form #shopAmount {
-	border:1px solid #ccc;
+.folders ul li a {
+	color:#333;
 }
-#images .caption .shop form #shopAmount {
+.folders ul li:hover a {
+	color:#000;
+}
+.no-rgba .thumbs a:hover,
+.no-rgba .thumbs a:focus,
+.no-rgba .folders ul li:hover {
+	background-color:transparent;
+	background-image:url(w80.png);
+}
+.rgba .thumbs a.active,
+.no-rgba .thumbs a.active {
 	background-color:#fff;
+}
+
+
+#index footer span {
+	background-color:rgba(255,255,255,0.4);
+}
+.no-rgba #index footer span {
+	background-color:transparent;
+	background-image:url(w40.png);
+}
+
+#index header .title .about a,
+#index header .title .parent a,
+#index header .startbtn {
+	background-color:rgba(0,0,0,0.4);
+}
+#index header .title .about a,
+#index header .title .parent a {
+	background-image:url(controls_c.png);
+}
+#index header .startbtn {
+	background-image:url(start_c.png);
+}
+#index header .title .about a:hover,
+#index header .title .parent a:hover,
+#index header .startbtn:hover {
+	background-color:rgba(255,255,255,0.8);
+}
+.rgba .share {
+	background-color:rgba(255,255,255,0.6);
+}
+.no-rgba .share {
+	background-color:transparent;
+	background-image:url(w60.png);
+}
+.rgba .share:hover {
+	background-color:rgba(255,255,255,0.8);
+}
+.no-rgba .share:hover {
+	background-color:transparent;
+	background-image:url(w80.png);
+}
+.share a {
+	color:#444;
+}
+.share a:hover {
 	color:#000;
 }
-#help .window {
-	border:3px solid #ccc;
-	background-color:#fff;
+
+.rgba .scrbar {
+	background-color:rgba(0,0,0,0.1);
 }
-#help .window h2 {
-	color:#000;
+.no-rgba .scrbar {
+	background-color:transparent;
+	background-image:url(k10.png);
 }
-#help .window em {
-	background-color:#ddd;
-	color:#000;
+.scrup,
+.scrdn {
+	background-image:url(pg_c.png);
 }
-#help .window b {
-	color:#000;
+
+
+.rgba .gallery .scrollbox,
+.rgba .gallery .bottom .cont {
+	background-color:rgba(255,255,255,0.4);
 }
+.no-rgba .gallery .scrollbox,
+.no-rgba .gallery .bottom .cont {
+	background-color:transparent;
+	background-image:url(w40.png);
+}
+.rgba.touch .gallery .scrollbox,
+.rgba.touch .gallery .bottom .cont,
+.rgba .gallery .scrollbox:hover,
+.rgba .gallery .bottom .cont:hover {
+	background-color:rgba(255,255,255,0.8);
+}
+.no-rgba .gallery .scrollbox:hover,
+.no-rgba .gallery .bottom .cont:hover {
+	background-color:transparent;
+	background-image:url(w80.png);
+}
+.rgba .gallery .scrollbox .cont a:hover, 
+.rgba .gallery .scrollbox .cont a:focus {
+	background-color:rgba(0,0,0,0.2);
+	outline:none;
+}
+.no-rgba .gallery .scrollbox .cont a:hover, 
+.no-rgba .gallery .scrollbox .cont a:focus {
+	background-image:url(k20.png);
+}
+.rgba .gallery .scrollbox .cont a.active {
+	background-color:rgba(0,0,0,0.4);
+}
+.no-rgba .gallery .scrollbox .cont a.active {
+	background-color:transparent;
+	background-image:url(k40.png);
+}
+.gallery .scrollbox .scleft,
+.gallery .scrollbox .scright {
+	background-image:url(scroll_c.png);
+}
+.rgba .gallery .bottom .meta b {
+	color:rgba(0,0,0,0.5);
+}
+.no-rgba .gallery .bottom .meta b {
+	color:#888;
+}
+
+
+.rgba .gallery .navigation nav {
+	background-color:rgba(255,255,255,0.8);
+}
+.no-rgba .gallery .navigation nav {
+	background-color:transparent;
+	background-image:url(w80.png);
+}
+.gallery .navigation nav a {
+	background-image:url(controls_c.png);	
+}
+
+.gallery .bottom nav {
+	border:1px solid #878174;
+	color:#222;
+	background-color:#999;
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,1)), color-stop(1, rgba(188,184,175,1)));
+	background-image:-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(188,184,175,1) );
+	background-image:-moz-linear-gradient(top, rgba(255,255,255,1), rgba(188,184,175,1) );
+	background-image:-ms-linear-gradient(top, rgba(255,255,255,1), rgba(188,184,175,1) );
+	background-image:linear-gradient(top, rgba(255,255,255,1), rgba(188,184,175,1) );
+	filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#FFFFFFFF,EndColorStr=#FFbcb8af);
+	
+}
+.gallery .bottom nav a {
+	border-left:1px solid #a59e8e;
+	background-image:url(buttons_c.png);
+}
+.gallery .bottom nav a.active {
+	background-color:rgba(0,0,0,0.2);
+	border-left-color:#878174;
+}
+.no-rgba .gallery .bottom nav a.active {
+	background-color:#a59e8e;
+}
+.gallery .bottom .icon {
+	background-image:url(buttons_c.png);
+}
+
+
+

@@ -1,5 +1,5 @@
 #jAlbum Project
-#Sat Dec 10 21:24:24 GMT 2011
+#Sun Dec 11 09:37:31 GMT 2011
 webPassword=
 skin.showFolderImageCount=true
 mediaRSS=false
@@ -125,7 +125,7 @@ metaData=true
 directory=/home/ml/BPS/Git/bromsgroveps-website/bps_jalbum
 skin.showPhotoDataLabel=true
 skin.shareEmail=false
-widgetInjection=true
+widgetInjection=false
 scalingMethod=ScaleMedium
 hiResDirectory=hi-res
 copyOriginals=false

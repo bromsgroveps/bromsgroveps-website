@@ -368,7 +368,7 @@ a.control:hover {
 	left:0;
 	right:0;
 	bottom:0;
-	height:25px;
+	height:0px;
 	z-index:1;
 }
 #indexbg {
@@ -376,7 +376,7 @@ a.control:hover {
 	left:0;
 	right:0;
 	top:0;
-	bottom:25px;
+	bottom:0px;
 	z-index:0;
 }
 #index {
@@ -384,7 +384,7 @@ a.control:hover {
 	left:0;
 	right:0;
 	top:0;
-	bottom:25px;
+	bottom:0px;
 	overflow:auto;
 	z-index:10;
 	-webkit-text-size-adjust:120%;
@@ -781,7 +781,7 @@ a.control:hover {
 	left:0;
 	right:0;
 	top:0;
-	bottom:25px;
+	bottom:0px;
 	z-index:10000;
 	background-color:#e9e4dc;
 	-webkit-text-size-adjust:120%;
@@ -1049,7 +1049,7 @@ a.control:hover {
 	left:0;
 	top:0;
 	right:0;
-	bottom:25px;
+	bottom:0px;
 	background-image:url(wait.gif);
 	background-position:center center;
 	background-repeat:no-repeat;

@@ -6,7 +6,11 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-Club Competition Winners
-Members A to G
-Members H to R
-Members S to Z
+Peter Blunn
+Colin Close AFIAP CPAGB LRPS
+Steve Cooper
+Janet Cox
+Mike Cox
+John Davidson
+Peter Garnett
+Barry Green ARPS EFIAP b

@@ -6,7 +6,10 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-Club Competition Winners
-Members A to G
-Members H to R
-Members S to Z
+Jill Howe
+Malcolm Landon
+Mike Norton
+Mal Ogden
+Ray Price
+David Riddle
+James Halstead

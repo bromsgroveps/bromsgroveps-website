@@ -11,14 +11,14 @@
   </void> 
   <void method="put"> 
    <string>lastFolderImagePath</string> 
-   <string>2011/Feeling-Blue.jpg</string> 
-  </void> 
-  <void method="put"> 
-   <string>lastSplashSize</string> 
-   <string>900x400</string> 
+   <string>2011/ThurneSunset.JPG</string> 
   </void> 
   <void method="put"> 
    <string>lastFolderImageSize</string> 
+   <string>900x400</string> 
+  </void> 
+  <void method="put"> 
+   <string>lastSplashSize</string> 
    <string>900x400</string> 
   </void> 
  </object> 

@@ -6,6 +6,15 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
+Bembridge Dawn.JPG
+ThurneSunset.JPG
+SteepingSunset.JPG
+ReflectionsInDarlingHarbour.jpg
+MarshHarrier.JPG
+HarbourCottage.JPG
+HerringFleetMill.JPG
+TriumphMayflower.JPG
+MonoCurves.jpg
 Feeling-Blue.jpg
 Gypsy Cowboy, Appleby Horse Fair.jpg
 Mayflower.jpg

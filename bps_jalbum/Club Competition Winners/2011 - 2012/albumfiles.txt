@@ -6,20 +6,29 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
--Vulture.jpg
--Jaguar-service.jpg
--Sunflower-Hoverfly-.jpg
--Hanomag-RIP.jpg
--Ready-For-Take-Off.jpg
--Messing-About-On-The-River.jpg
+Venus.jpg
+HarbourCottage_2.jpg
+LoudColours.jpg
+TheChevin.jpg
+Brain-Freez.jpg
 Black-headed-Gull.jpg
 Lion-Profile.jpg
-Brain-Freez.jpg
+GreyHeron.jpg
+GrassHopperintheOrangeGrove.jpg
+BlackrockCottage.jpg
+Trishaw.jpg
 Autum-Falls.jpg
 Bembridge Dawn.JPG
+Ready-For-Take-Off.jpg
+RiverSteeping_02.jpg
+Jaguar-service.jpg
+Vulture.jpg
 ThurneSunset.JPG
 SteepingSunset.JPG
+Messing-About-On-The-River.jpg
+Hanomag-RIP.jpg
 ReflectionsInDarlingHarbour.jpg
+Sunflower-Hoverfly-.jpg
 MarshHarrier.JPG
 HarbourCottage.JPG
 HerringFleetMill.JPG

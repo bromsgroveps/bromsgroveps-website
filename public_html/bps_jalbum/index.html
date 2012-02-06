@@ -40,15 +40,15 @@
 			<div class="cont">
 				<div class="folders">
 					<ul class="clearfix">
-					<li style="clear:left;"><aside><a href="Club Competition Winners/index.html"><img src="Club Competition Winners/2011 - 2012/thumbs/HarbourCottage_2.jpg" alt="Club Competition Winners" width="140" height="89" data-modified="15366" /></a></aside><div class="data"><h4><a href="Club Competition Winners/index.html">Club Competition Winners</a></h4><p class="info">33 images</p></div></li>
-					<li><aside><a href="Members A to G/index.html"><img src="Members A to G/Colin Close AFIAP CPAGB LRPS/thumbs/He's My Man.jpg" alt="Members A to G" width="133" height="100" data-modified="15326" /></a></aside><div class="data"><h4><a href="Members A to G/index.html">Members A to G</a></h4><p class="info">78 images</p></div></li>
-					<li><aside><a href="Members H to R/index.html"><img src="Members H to R/James Halstead/thumbs/1 Reflections in Darling Harbour.jpg" alt="Members H to R" width="140" height="93" data-modified="15326" /></a></aside><div class="data"><h4><a href="Members H to R/index.html">Members H to R</a></h4><p class="info">81 images</p></div></li>
-					<li><aside><a href="Members S to Z/index.html"><img src="Members S to Z/David Ward ARPS/thumbs/french_punks_at_blackpool.jpg" alt="Members S to Z" width="140" height="93" data-modified="15354" /></a></aside><div class="data"><h4><a href="Members S to Z/index.html">Members S to Z</a></h4><p class="info">43 images</p></div></li>
+					<li style="clear:left;"><aside><a href="Club Competition Winners/index.html"><img src="Club Competition Winners/2011 - 2012/thumbs/Billy.jpg" alt="Club Competition Winners" width="129" height="100" data-modified="15376" /></a></aside><div class="data"><h4><a href="Club Competition Winners/index.html">Club Competition Winners</a></h4><p class="info">35 images</p></div></li>
+					<li><aside><a href="Members A to G/index.html"><img src="Members A to G/Barry Green ARPS EFIAP b/thumbs/joslingforposition.jpg" alt="Members A to G" width="140" height="85" data-modified="15376" /></a></aside><div class="data"><h4><a href="Members A to G/index.html">Members A to G</a></h4><p class="info">80 images</p></div></li>
+					<li><aside><a href="Members H to R/index.html"><img src="Members H to R/James Halstead/thumbs/1 Reflections in Darling Harbour.jpg" alt="Members H to R" width="140" height="93" data-modified="15376" /></a></aside><div class="data"><h4><a href="Members H to R/index.html">Members H to R</a></h4><p class="info">81 images</p></div></li>
+					<li><aside><a href="Members S to Z/index.html"><img src="Members S to Z/David Ward ARPS/thumbs/french_punks_at_blackpool.jpg" alt="Members S to Z" width="140" height="93" data-modified="15376" /></a></aside><div class="data"><h4><a href="Members S to Z/index.html">Members S to Z</a></h4><p class="info">43 images</p></div></li>
 					</ul>
 				</div>
 				<footer><span>
-					235 images
-					 &nbsp; &middot; &nbsp; Create <a href="http://jalbum.net/">web photo albums</a> with <a href="http://jalbum.net" title="Jalbum, freeware album generator, v10.2.1" class="showhint">Jalbum</a> &nbsp; &middot; &nbsp; <a href="http://jalbum.net/skins/skin/Turtle" title="Skin: Turtle Legacy Light, 2.1.10" class="showhint">Turtle Skin</a>
+					239 images
+					 &nbsp; &middot; &nbsp; Create <a href="http://jalbum.net/">web photo albums</a> with <a href="http://jalbum.net" title="Jalbum, freeware album generator, v10.3.1" class="showhint">Jalbum</a> &nbsp; &middot; &nbsp; <a href="http://jalbum.net/skins/skin/Turtle" title="Skin: Turtle Legacy Light, 2.3.0" class="showhint">Turtle Skin</a>
 				</span></footer>
 			</div>
 		</div>
@@ -79,50 +79,55 @@
 				}, 100);
 			}
 			
-			var t = $('#index');
-			if (t.is(':visible') ) {
-				t.find('.folders>ul>li').equalHeight();
+			var t = $('#index'), 
+				i = t.find('.thumbs'), 
+				f = t.find('.folders > ul > li');
+			if ( t.is(':visible') ) {
+				f.equalHeight();
 			}
-			t.find('.items>.cont').addScroll({
+			t.find('.items > .cont').addScroll({
 				enableMouseWheel: true, 
 				enableKeyboard: true
 			});
 			$('.showhint').addHint();
-			t.find('.thumbs').turtleGallery({
-				resPath: 'res',
-				relPath: '',
-				header: '#index header',
-				level: 0,
-				skipIndex: false,
-				uplink: 'http://www.bromsgroveps.co.uk/blog',
-				slideshowDelay: 4000,
-				slideshowLoop: false,
-				slideshowAuto: false,
-				askAtLast: true,
-				infoOn: true,
-				thumbsOn: true,
-				shareOn: false,
-				preScale: 0.95,
-				speed: 600,
-				transitions: true,
-				fitImage: false,
-				fitShrinkonly: false,
-				slides: 'slides',
-				thumbs: 'thumbs',
-				loadImg: 'load.gif',
-				thumbHeight: 100,
-				rightClickProtect: true,
-				markNewDays: 0,
-				enableKeyboard: true,
-				enableMouseWheel: true,
-				licensee: '',
-				numberLinks: false
-			}, {
-				startSlideshow:'Start slideshow', newItem:'NEW', firstPage:'First page', lastPage:'Last page', atFirstPage:'At first page', atLastPage:'At last page', atLastPageQuestion:'Where to go next?', startOver:'Start over', stop:'Stop', share:'Share', shareOn:'Share on', checkOutThis:'Check this out', previousPicture:'Previous picture', nextPicture:'Next picture', backToHome:'Back to home', upOneLevel:'Up one level', backToIndex:'Back to index page', oneToOneSize:'1:1 size', fitToScreen:'Fit to screen', showInfo:'Show caption / info', hideInfo:'Hide caption / info', showThumbs:'Show thumbnails', hideThumbs:'Hide thumbnails', startAutoplay:'Start autoplay', stopAutoplay:'Stop autoplay', clickToOpen:'Click to open this document with the associated viewer', metaBtn:'Photo data', metaLabel:'Display photograpic (Exif/Iptc) data', map:'Map', mapBtn:'Map', mapLabel:'Show the photo location on map', noGPS:'No GPS data found', shopBtn:'Buy', shopLabel:'Show options to buy this item', buyThis:'Buy this item', notForSale:'Not for sale.', shareBtn:'Share', shareLabel:'Share this photo over social sites', download:'Download', original:'Original', hiRes:'Hi res.', saveTip:'Use <b>Right click + Save link as...</b> to download',
-				help: [ 'Using Turtle gallery', '<b>Up</b> one level <em>Up arrow</em>', '<b>Share</b> and <b>Like</b> buttons for social networking', 'Start <b>slideshow</b> <em>Numpad *</em>', 'Author or company <b>information</b>', '<b>Previous</b> picture <em>Left arrow</em><em>Swipe right</em>', 'Back to <b>thumbnail page</b> / up one level <em>Esc</em>', 'Toggle <b>fit to screen</b> or <b>1:1</b> size <em>Numpad +</em>', 'Show/hide <b>captions</b> and other panels, like Metadata, Map, Shopping, etc. <em>Numpad -</em>', 'Show/hide <b>thumbnail</b> scroller <em>Numpad -</em>', 'Start/stop <b>slideshow</b> <em>Numpad *</em>', '<b>Next</b> picture <em>Right arrow</em><em>Swipe left</em>', 'Press <b>F1</b> any time to get help!' ]
-			});
-			t.find('.share>a').shareIt( { useHash: false } );
+			if ( i.length ) {
+				i.turtleGallery({
+					resPath: 'res',
+					relPath: '',
+					header: '#index header',
+					level: 0,
+					skipIndex: false,
+					uplink: 'http://www.bromsgroveps.co.uk/blog',
+					slideshowDelay: 4000,
+					slideshowLoop: false,
+					slideshowAuto: false,
+					afterLast: 'ask',
+					infoOn: true,
+					thumbsOn: true,
+					shareOn: false,
+					preScale: 0.95,
+					speed: 600,
+					transitions: true,
+					fitImage: false,
+					fitShrinkonly: false,
+					slides: 'slides',
+					thumbs: 'thumbs',
+					loadImg: 'load.gif',
+					thumbHeight: 100,
+					rightClickProtect: true,
+					markNewDays: 0,
+					enableKeyboard: true,
+					enableMouseWheel: true,
+					licensee: '',
+					numberLinks: false
+				}, {
+					startSlideshow:'Start slideshow', newItem:'NEW', firstPage:'First page', lastPage:'Last page', atFirstPage:'At first page', atLastPage:'At last page', atLastPageQuestion:'Where to go next?', startOver:'Start over', stop:'Stop', share:'Share', shareOn:'Share on', checkOutThis:'Check this out', previousPicture:'Previous picture', nextPicture:'Next picture', backToHome:'Back to home', upOneLevel:'Up one level', backToIndex:'Back to index page', oneToOneSize:'1:1 size', fitToScreen:'Fit to screen', showInfo:'Show caption / info', hideInfo:'Hide caption / info', showThumbs:'Show thumbnails', hideThumbs:'Hide thumbnails', startAutoplay:'Start autoplay', stopAutoplay:'Stop autoplay', clickToOpen:'Click to open this document with the associated viewer', metaBtn:'Photo data', metaLabel:'Display photograpic (Exif/Iptc) data', map:'Map', mapBtn:'Map', mapLabel:'Show the photo location on map', noGPS:'No GPS data found', shopBtn:'Buy', shopLabel:'Show options to buy this item', buyThis:'Buy this item', notForSale:'Not for sale.', shareBtn:'Share', shareLabel:'Share this photo over social sites', download:'Download', original:'Original', hiRes:'Hi res.', saveTip:'Use <b>Right click + Save link as...</b> to download',
+					help: [ 'Using Turtle gallery', '<b>Up</b> one level <em>Up arrow</em>', '<b>Share</b> and <b>Like</b> buttons for social networking', 'Start <b>slideshow</b> <em>Numpad *</em>', 'Author or company <b>information</b>', '<b>Previous</b> picture <em>Left arrow</em><em>Swipe right</em>', 'Back to <b>thumbnail page</b> / up one level <em>Esc</em>', 'Toggle <b>fit to screen</b> or <b>1:1</b> size <em>Numpad +</em>', 'Show/hide <b>captions</b> and other panels, like Metadata, Map, Shopping, etc. <em>Numpad -</em>', 'Show/hide <b>thumbnail</b> scroller <em>Numpad -</em>', 'Start/stop <b>slideshow</b> <em>Numpad *</em>', '<b>Next</b> picture <em>Right arrow</em><em>Swipe left</em>', 'Press <b>F1</b> any time to get help!' ]
+				});
+			}
+			
 
+			
 		});
 	</script>
 	
@@ -141,3 +146,4 @@
 
 </body>
 </html>
+

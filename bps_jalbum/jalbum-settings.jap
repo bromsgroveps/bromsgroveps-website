@@ -1,12 +1,12 @@
 #jAlbum Project
-#Fri Jan 27 22:05:53 GMT 2012
+#Mon Feb 06 20:27:35 GMT 2012
 webPassword=
 skin.showFolderImageCount=true
 mediaRSS=false
+searchEngineFriendlyNames=false
 cpuCores=2
 skin.uploadPath=
 skin.shopHandling=
-skin.askAtLast=true
 skin.textColor=\#473b28
 skin.reduceThumbs=1.0
 closeupDirectory=slides
@@ -15,6 +15,7 @@ slideDirectory=slides
 style=Legacy Light.css
 textEncoding=ISO-8859-1
 thumbnailDirectory=thumbs
+skin.stickControlsToTop=false
 skin.twitterTweet=false
 skin.tumblrButton=false
 highQualityThumbs=true
@@ -121,6 +122,7 @@ pageExtension=.html
 textFileComment=true
 classicReaders=false
 skin.shareFacebook=false
+skin.useSearch=false
 metaData=true
 directory=/home/ml/BPS/Git/bromsgroveps-website/bps_jalbum
 skin.showPhotoDataLabel=true
@@ -128,6 +130,7 @@ skin.shareEmail=false
 widgetInjection=false
 scalingMethod=ScaleMedium
 hiResDirectory=hi-res
+skin.afterLast=ask
 copyOriginals=false
 skin.hoverColor=\#ca6206
 indexPageName=index
@@ -150,5 +153,5 @@ accountProfileName=
 skin.slideshowDelay=4
 skin.showFolderDescription=true
 skin.shopCurrency=EUR
-internalVersion=10.2.1
+internalVersion=10.3.1
 skin.playlist=

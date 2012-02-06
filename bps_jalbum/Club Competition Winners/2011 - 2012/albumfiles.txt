@@ -6,18 +6,20 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
+Billy.jpg
+BlackrockCottage.jpg
+Trishaw.jpg
+Autum-Falls.jpg
 Venus.jpg
 HarbourCottage_2.jpg
 LoudColours.jpg
 TheChevin.jpg
+cuddly toys.jpg
 Brain-Freez.jpg
 Black-headed-Gull.jpg
 Lion-Profile.jpg
 GreyHeron.jpg
 GrassHopperintheOrangeGrove.jpg
-BlackrockCottage.jpg
-Trishaw.jpg
-Autum-Falls.jpg
 Bembridge Dawn.JPG
 Ready-For-Take-Off.jpg
 RiverSteeping_02.jpg

@@ -29,19 +29,19 @@ String.prototype.getExt = function() {
 }
 
 var htmlregex = [
-	[ /<br>/, '\n' ],
-	[ /\&amp;/, '&' ],
-	[ /\&lt;/, '<' ],
-	[ /\&gt;/ , '>' ],
-	[ /\&(m|n)dash;/ , '-' ],
-	[ /\&apos;/ , '\'' ],
-	[ /\&quot;/ , '"' ]
+	[ /<br>/gi, '\n' ],
+	[ /\&amp;/gi, '&' ],
+	[ /\&lt;/gi, '<' ],
+	[ /\&gt;/gi, '>' ],
+	[ /\&(m|n)dash;/gi , '-' ],
+	[ /\&apos;/gi, '\'' ],
+	[ /\&quot;/gi, '"' ]
 ];
 
 String.prototype.cleanupHTML = function() {
 	var s = this;
 	for ( var i = htmlregex.length - 1; i >= 0; i--) {
-		s = s.replace( new RegEx( htmlregex[i][0], 'gi' ), htmlregex[i][1] );
+		s = s.replace( htmlregex[i][0], htmlregex[i][1] );
 	}
 	return s; 
 };
@@ -136,6 +136,46 @@ checkFlash = function( rv ) {
 		(v[0] == rv[0] && v[1] > rv[1]) || 
 		(v[0] == rv[0] && v[1] == rv[1] && v[2] >= rv[2]);
 };
+
+// Search :: searching throughout all the album pages
+
+if ( typeof Search !== UNDEF ) {
+	Search.start = function( form ) {
+		var t = $(form).find('input[type=search]').val().trim(), 
+			el = $('<div>', { 'class': 'searchresults' }),
+			found = 0,
+			i, j, a, p, r, s;
+	
+		if ( !Search.data || !$.isArray(Search.data) || !Search.data.length || !t || t.length < 2 )
+			return;
+			
+		el.append($('<h4>', { html: Search.text.title + ' &quot;<b>' + t + '</b>&quot;' }));
+		t = t.toLowerCase();
+		
+		for ( i = 0; i < Search.data.length; i++ ) {
+			for ( j = 0; j <  Search.data[i][1].length; j++ ) {
+				if ( Search.data[i][1][j].toLowerCase().indexOf(t) != -1 ) {
+					s = Search.data[i][1][j].split(Search.sep);
+					r = (Search.rootPath && Search.rootPath !== '.')? (Search.rootPath + '/') : ''; 
+					p = r + (Search.data[i][0]? (Search.data[i][0] + '/') : '');
+					a = $('<a>', { href: p + Search.pageName + ((s[0].length)? ('#' + s[0].replace(/%/g,'%25')) : '') }).appendTo(el);
+					a.append($('<aside>').append($('<img>', { src: (s[0].length? (s[0].toLowerCase().endsWith('.jpg')? (p + 'thumbs/' + s[0]) : (r + 'res/unknown.png')) : (p + Search.folderThumb)) })));
+					a.append($('<h5>', { text: s[1] }));
+					a.append($('<p>', { text: s[2] }));
+					found++;
+				}
+			}
+		}
+		
+		if ( !found ) {
+			el.append($('<p>', { text: Search.text.notFound }));
+		}
+		
+		el.alertBox([ { t: Search.text.close } ], {width: 400});
+		
+		return false;
+	};
+}
 
 (function($) {
 
@@ -759,7 +799,7 @@ checkFlash = function( rv ) {
 			
 			if ( $.isFunction(settings.enableKeyboard) || settings.enableKeyboard ) {
 				$(document).keydown(function(e) {
-					if (document.activeElement.nodeName === 'INPUT' || 
+					if (document.activeElement && document.activeElement.nodeName === 'INPUT' || 
 						( $.isFunction(settings.enableKeyboard) && !settings.enableKeyboard() ) ) {
 						return true;
 					}
@@ -1127,14 +1167,19 @@ checkFlash = function( rv ) {
 			}
 			
 			if ( l < 0 ) {
+				l = 0;
+			} else if ( (l + w) > $(window).width() ) {
+				l = $(window).width() - w;
+			}
+			/* if ( l < 0 ) {
 				if ( settings.toPos.h !== ALIGN_RIGHT ) {
 					l = Math.round(o.left + el.outerWidth() + settings.gap);
 				}
 			} else 	if ( (l + w) > $(window).width() ) {
-			 	if ( settings.topPos.h !== ALIGN_LEFT ) {
+			 	if ( settings.toPos.h !== ALIGN_LEFT ) {
 					l = Math.round(o.left - w - settings.gap);
 				}
-			}
+			}*/
 			
 			$(this).css({
 				position: 'absolute',
@@ -1165,7 +1210,13 @@ checkFlash = function( rv ) {
 		};
 		
 		return this.each(function() {
-			var t = $(this), tx = txt || t.attr('title'), to, over = false, dyn = !(tx && tx.jquery), pop;
+			var t = $(this), 
+				tx = txt || t.attr('title'), 
+				to, 
+				over = false,
+				focus = false,
+				dyn = !(tx && tx.jquery), 
+				pop;
 			
 			if ( !tx || !tx.length ) {
 				return;
@@ -1175,24 +1226,42 @@ checkFlash = function( rv ) {
 				// Inserting dynamic content
 				if ( dyn ) {
 					pop = getPop();
-					pop.html( tx );
+					pop.empty().html( tx );
 				} else {
 					pop = tx.show();
 				}
 				
-				// Keep the popup live while the mouse is over
-				pop.hover(function() {
+				pop.off('mouseover', getFocus);
+				pop.off('mouseout', lostFocus);
+				
+				// getFocus, lostFocus
+				var getFocus =  function() {
 					to = clearTimeout(to);
 					over = true;
 					pop.stop(true, true).css({opacity: 1}).show();
-				}, function() {
+				};
+				var lostFocus = function() {
+					if ( focus ) {
+						return;
+					}
 					to = clearTimeout(to);
 					over = false;
 					fade();
+				};
+				
+				// Keep the popup live while the mouse is over, or an input box has focus
+				pop.on('mouseover', getFocus);
+				pop.on('mouseout', lostFocus);
+				pop.find('input').focus(function() {
+					focus = true;
+					getFocus();
+				}).blur(function() {
+					focus = false;
 				});
 				
 				// Aligning and fading in
-				pop.stop(true, false).alignTo( t ).css({opacity: 0}).show().animate({ opacity: 1 }, 200);
+				pop.stop(true, true).alignTo( t );
+				pop.css({opacity: 0}).show().animate({ opacity: 1 }, 200);
 				
 				// Remove hint automatically on touch devices, because there's no explicit mouse leave event is triggered
 				if ( $.support.touch ) {
@@ -1211,7 +1280,7 @@ checkFlash = function( rv ) {
 			
 			// Fading the popup
 			var fade = function() {
-				if ( !over && pop.length ) {
+				if ( !over && pop && pop.length ) {
 					pop.stop(true, false).animate({opacity: 0}, 200, function() { 
 						$(this).hide(); 
 					});
@@ -1308,7 +1377,7 @@ checkFlash = function( rv ) {
 		pn.css({ width: settings.width });
 		
 		var keyhandler = function(e) {
-			if ( document.activeElement.nodeName === 'input' || 
+			if ( document.activeElement && document.activeElement.nodeName === 'input' || 
 				( $.isFunction(settings.enableKeyboard) && !settings.enableKeyboard()) ) {
 				return true;
 			}
@@ -1975,21 +2044,21 @@ checkFlash = function( rv ) {
 			settings.id = settings.id.replace('|','@');
 			
 			var changed = function( e ) {
-				var el, s = f.children('select');
-				if ( f.length && s.length ) {
-					s = s.val().split('+');
+				var s = f.length? f.children('select').eq(0) : false ;
+				if ( s && s.length ) {
+					var el, a = s.val().split('+');
 					q = f.children('[name=copies]').val() || 1;
 					if ( el = f.children('[name=total]') ) {
-						el.val( (s[0] * q).toFixed(2) );
+						el.val( (a[0] * q).toFixed(2) );
 					}
 					if ( el = fs.children('[name='+id.price+']') ) {
-						el.val( s[0] );
+						el.val( a[0] );
 					}
 					if ( el = fs.children('[name='+id.copies+']') ) {
 						el.val( q );
 					}
-					if ( (s.length > 1) && (el = fs.children('[name='+id.shipprice+']'))  ) {
-						el.val( s[1] );
+					if ( el = fs.children('[name='+id.shipprice+']') ) {
+						el.val( (a.length > 1)? a[1] : 0 );
 					}
 					if ( el = fs.children('[name='+id.select+']') ) {
 						el.val( f.find('option:selected').text() );
@@ -2011,6 +2080,7 @@ checkFlash = function( rv ) {
 			
 			if ( settings.gateway === 'paypal' ) {
 				
+				var a = o[0].val.split('+');
 				fs = $('<form>', {
 					name: id.form,
 					target: settings.target,
@@ -2021,11 +2091,9 @@ checkFlash = function( rv ) {
 				fs.addInput('cmd', '_cart', 'hidden');
 				fs.addInput(id.copies, 1, 'hidden');
 				fs.addInput(id.seller, settings.id, 'hidden');
-				fs.addInput(id.price, o[0].val.split('+')[0], 'hidden');
+				fs.addInput(id.price, a[0], 'hidden');
 				fs.addInput(id.currency, settings.currency, 'hidden');
-				if ( settings.shipping != null && $.isNumeric(settings.shipping) ) {
-					fs.addInput(id.shipprice, settings.shipping, 'hidden');
-				}
+				fs.addInput(id.shipprice, (a[1] && $.isNumeric(a[1]))? a[1] : 0, 'hidden');
 				if ( settings.handling != null && $.isNumeric(settings.handling) ) {
 					fs.addInput(id.handling, settings.handling, 'hidden');
 				}
@@ -2049,7 +2117,7 @@ checkFlash = function( rv ) {
 				}).appendTo(t);
 				fv.addInput('cmd', '_cart', 'hidden');
 				fv.addInput('display', 1, 'hidden');
-				fv.addInput(id.seller, settings.business, 'hidden');
+				fv.addInput(id.seller, settings.id, 'hidden');
 				fv.append($('<input>', {
 					id: 'shopView',
 					type: 'image',
@@ -2244,9 +2312,34 @@ checkFlash = function( rv ) {
 		// click :: function to be called upon marker click
 	};
 	
-	/* 
-		Turtle gallery main
-	*/
+	// markNewFolders :: marking the folders containing new pictures
+	
+	$.fn.markFoldersNew = function( settings ) {
+		
+		settings = $.extend( {}, $.fn.markFoldersNew.defaults, settings );
+		
+		if ( !settings.markNewDays )
+			return;
+		
+		var today = Math.round((new Date()).getTime() / 86400000);
+		
+		return this.each(function() {
+			if ( (today - parseInt($(this).data('modified') || 0)) <= settings.markNewDays ) {
+				$(this).after( settings.newLabel );
+			}
+		});
+	};
+			
+	$.fn.markFoldersNew.defaults = {
+		markNewDays: 7,		// day count :: 0 = no mark
+		newLabel: 'NEW'
+	};	
+	
+	/* *******************************************************
+	*
+	*	             Turtle gallery main
+	*
+	******************************************************** */
 	
 	$.fn.turtleGallery = function( settings, text, id ) {
 		
@@ -2352,7 +2445,7 @@ checkFlash = function( rv ) {
 			// Keyboard handler
 			
 			var keyhandler = function(e) {
-				if ( document.activeElement.nodeName === 'INPUT' || 
+				if ( document.activeElement && document.activeElement.nodeName === 'INPUT' || 
 					( $.isFunction(settings.enableKeyboard) && !settings.enableKeyboard()) || 
 					$('#modal:visible').length ) 
 					return true;
@@ -2472,7 +2565,7 @@ checkFlash = function( rv ) {
 				if ( curr ) {
 					showImg(curr - 1);
 				}
-				else if ( settings.slideshowLoop ) {
+				else if ( settings.afterLast === 'startover' ) {
 					showImg(images.length - 1);
 				}
 				else {
@@ -2486,13 +2579,24 @@ checkFlash = function( rv ) {
 				if ( curr < images.length - 1 ) {
 					reLoop();
 					showImg(curr + 1);
+					return;
 				} else {
-					if ( settings.slideshowLoop ) {
+					if ( settings.afterLast === 'startover' || to && settings.slideshowLoop ) {
 						reLoop();
 						showImg(0);
-					} else if ( settings.askAtLast ) {
+						return;
+					} else if ( settings.afterLast === 'onelevelup' ) {
+						if ( settings.uplink ) {
+							goUp();
+							return;
+						}
+					} else if ( settings.afterLast === 'backtoindex' ) {
+						if ( !settings.skipIndex ) {
+							backToIndex();
+							return;
+						}
+					} else if ( settings.afterLast === 'ask' ) {
 						stopAuto();
-						cimg.find('img.' + id.main).trigger('dragcancel');
 						var buttons = new Array({ 	// Start over 
 								t: text.startOver,
 								h: function() { 
@@ -2518,6 +2622,7 @@ checkFlash = function( rv ) {
 						}
 						$('<h4>' + text.atLastPage + '</h4><p>' + text.atLastPageQuestion + '</p>').alertBox(buttons);
 					}
+					cimg.find('img.' + id.main).trigger('dragcancel');
 				}
 			};
 
@@ -2936,7 +3041,7 @@ checkFlash = function( rv ) {
 					}
 				}
 				
-				var isimg = o[0].nodeName === 'IMG';
+				var isimg = o[0] && o[0].nodeName === 'IMG';
 				
 				cimg.children().not('.' + id.bottom).remove();
 				cimg.append(o);
@@ -3402,14 +3507,6 @@ checkFlash = function( rv ) {
 			
 			setupHeader();
 			
-			if ( settings.markNewDays ) {
-				$('[role=main] .folders aside img').each(function() {
-					if ( (today - parseInt($(this).data(id.modified) || 0)) <= settings.markNewDays ) {
-						$(this).after( newLabel );
-					}
-				});
-			}
-			
 			gallery = $('<div>', { 'class': id.gallery }).appendTo('body');
 			wait = $('<div>', { 'class': id.wait }).appendTo(gallery);
 			navigation = $('<div>', { 'class': id.navigation }).appendTo(gallery);
@@ -3532,7 +3629,7 @@ checkFlash = function( rv ) {
 		slideshowLoop: false, 		// automatically starts over
 		slideshowAuto: false,		// automatically starts with the first image
 		markNewDays: 30,			// : days passed by considered a picture is 'new'
-		askAtLast: true,			// Asks what to do rolling over the last image
+		afterLast: 'ask',			// Deafult action after the last frame ( ask|backtoindex|onelevelup|startover )
 		infoOn: true,				// Show the captions by default?
 		thumbsOn: false,			// Show the thumbnail scroller by default?
 		fitImage: true,				// Fit the images to window size by default or use 1:1?

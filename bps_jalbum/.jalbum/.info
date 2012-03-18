@@ -2,35 +2,35 @@
 <java version="1.6.0_23" class="java.beans.XMLDecoder">
  <object class="java.util.HashMap">
   <void method="put">
-   <string>title</string>
-   <string>Bromsgrove Photographic Society</string>
-  </void>
-  <void method="put">
    <string>imageSettingsHash</string>
    <string>279ff1f0f8517575eccb8b75abf42043</string>
+  </void>
+  <void method="put">
+   <string>title</string>
+   <string>Bromsgrove Photographic Society</string>
   </void>
   <void method="put">
    <string>lastSplashPath</string>
    <string>Members A to F/Colin Close AFIAP CPAGB LRPS/He&apos;s My Man.jpg</string>
   </void>
   <void method="put">
-   <string>imageLinking</string>
-   <string>LinkScaled</string>
-  </void>
-  <void method="put">
    <string>lastFolderThumbSize</string>
    <string>240x240</string>
+  </void>
+  <void method="put">
+   <string>imageLinking</string>
+   <string>LinkScaled</string>
   </void>
   <void method="put">
    <string>lastFolderImagePath</string>
    <string>Club Competition Winners/2011 - 2012/Billy.jpg</string>
   </void>
   <void method="put">
-   <string>lastSplashSize</string>
+   <string>lastFolderImageSize</string>
    <string>900x400</string>
   </void>
   <void method="put">
-   <string>lastFolderImageSize</string>
+   <string>lastSplashSize</string>
    <string>900x400</string>
   </void>
  </object>

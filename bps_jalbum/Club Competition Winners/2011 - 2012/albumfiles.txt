@@ -6,9 +6,15 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
+Still-Life.jpg
 WalkDownThePier.jpg
+The-Minstrel.jpg
 MyDoctor.jpg
 TheGuard.jpg
+Catkins.jpg
+Garden-Spider.jpg
+The-Widow.jpg
+Watching-and-Waiting.jpg
 Billy.jpg
 BlackrockCottage.jpg
 Trishaw.jpg

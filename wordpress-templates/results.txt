@@ -1,0 +1,104 @@
+<h1>Xth Projected Image Competition Xth Month 2012</h1>
+&nbsp;
+<table width="80%" border="2">
+<tbody>
+<tr>
+<td>
+<h2>Colour</h2>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>1st</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>2nd</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>3rd</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>Highly Commended</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>Commended</strong></td>
+<td> - </td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+<table width="80%" border="2">
+<tbody>
+<tr>
+<td>
+<h2>Natural History</h2>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>1st</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>2nd</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>3rd</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>Highly Commended</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>Commended</strong></td>
+<td> - </td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+<table width="80%" border="2">
+<tbody>
+<tr>
+<td>
+<h2>Mono</h2>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>1st</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>2nd</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>3rd</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>Highly Commended</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>Highly Commended</strong></td>
+<td> - </td>
+</tr>
+<tr>
+<td><strong>Commended</strong></td>
+<td> - </td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+<h3>Source of Information</h3>
+Results documents supplied by Competition Secretary:
+<a href="http://bromsgroveps.co.uk/assets/blog/..." target="_blank">X_Colour_Results</a>
+<a href="http://bromsgroveps.co.uk/assets/blog/..." target="_blank">X_Mono_Results.rtf</a>
+<a href="http://bromsgroveps.co.uk/assets/blog/..." target="_blank">X_Nature_Results.rtf</a>

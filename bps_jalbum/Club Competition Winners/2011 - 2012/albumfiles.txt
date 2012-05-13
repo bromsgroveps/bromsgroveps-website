@@ -6,6 +6,23 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
+A_Worcester Cathedral_Mono.jpg
+Blackrock Cottage.JPG
+Blue-Dice-1.jpg
+Fly-2.jpg
+Grey Heron (non captive).jpg
+Beautiful Worship.JPG
+Seaside Delight.JPG
+Charlee.jpg
+Jon.jpg
+Cathedral-rays.jpg
+Winter Scenes 4th PDI Commended copy.jpg
+determination.jpg
+Wash-day.jpg
+Organ-Failure.jpg
+Cube Creation  Commended 4th PDI copy.jpg
+Lanzarote-Coastline.jpg
+VW-Type-3-Fastback.jpg
 Still-Life.jpg
 WalkDownThePier.jpg
 Burj_Al_Arab.JPG
@@ -15,9 +32,13 @@ TheGuard.jpg
 Catkins.jpg
 Fly.JPG
 Garden-Spider.jpg
+Commended 3rd PDI copy.jpg
 Grand_Mosque_Mono.JPG
 The-Widow.jpg
 Watching-and-Waiting.jpg
+Maligne-Lake-commended 3rd PDI copy.jpg
+Coloursplah-Flash-.jpg
+Tenby Waves.JPG
 Billy.jpg
 BlackrockCottage.jpg
 Trishaw.jpg
@@ -26,10 +47,12 @@ Venus.jpg
 HarbourCottage_2.jpg
 LoudColours.jpg
 TheChevin.jpg
+Commended colour (2)PDI copy.jpg
 cuddly toys.jpg
 Brain-Freez.jpg
 Black-headed-Gull.jpg
 Lion-Profile.jpg
+Commended-Nature-2nd PDI copy.jpg
 GreyHeron.jpg
 GrassHopperintheOrangeGrove.jpg
 Bembridge Dawn.JPG
@@ -39,6 +62,7 @@ Jaguar-service.jpg
 Vulture.jpg
 ThurneSunset.JPG
 SteepingSunset.JPG
+Highly Commended-1st Colour-PDI copy.jpg
 Messing-About-On-The-River.jpg
 Hanomag-RIP.jpg
 ReflectionsInDarlingHarbour.jpg

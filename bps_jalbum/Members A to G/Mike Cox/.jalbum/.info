@@ -14,11 +14,11 @@
    <string>theleadinglight.jpg</string>
   </void>
   <void method="put">
-   <string>lastSplashSize</string>
+   <string>lastFolderImageSize</string>
    <string>900x400</string>
   </void>
   <void method="put">
-   <string>lastFolderImageSize</string>
+   <string>lastSplashSize</string>
    <string>900x400</string>
   </void>
  </object>

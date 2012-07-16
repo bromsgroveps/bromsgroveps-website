@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-.rgba #index header .title {
+.rgba #main header .title {
 	background-image:none;
 	background-color:rgba(255,255,255,0.6);
 	color:#000;
 }
-.no-rgba #index header .title {
+.no-rgba #main header .title {
 	background-image:url(w60.png);
 	color:#000;
 }
@@ -22,84 +22,85 @@
 	color:#fff;
 }
 
-.rgba .thumbs a,
+.rgba .thumbs ul li,
 .rgba .folders ul li {
 	background-color:rgba(255,255,255,0.6);
 }
-.no-rgba .thumbs a,
+.no-rgba .thumbs ul li,
 .no-rgba .folders ul li {
 	background-color:transparent;
 	background-image:url(w60.png);
 }
-.rgba .thumbs a:hover,
-.rgba .thumbs a:focus,
+.rgba .thumbs ul li > a:hover,
+.rgba .thumbs ul li > a:focus,
 .folders ul li:hover {
 	background-color:rgba(255,255,255,0.8);
 	outline:none;
 	color:#000;
 }
-.folders ul li a {
+.folders ul li > a {
 	color:#333;
 }
-.folders ul li:hover a {
+.folders ul li:hover > a {
 	color:#000;
 }
-.no-rgba .thumbs a:hover,
-.no-rgba .thumbs a:focus,
+.no-rgba .thumbs ul li > a:hover,
+.no-rgba .thumbs ul li > a:focus,
 .no-rgba .folders ul li:hover {
 	background-color:transparent;
 	background-image:url(w80.png);
 }
-.rgba .thumbs a.active,
-.no-rgba .thumbs a.active {
+.rgba .thumbs ul li > a.active,
+.no-rgba .thumbs ul li > a.active {
 	background-color:#fff;
 }
+#main article {
+	background-color:rgba(255,255,255,0.8);
+}
+.no-rgba #main article {
+	background-color:transparent;
+	background-image:url(w80.png);
+}
+.thumbs ul li > p span.nr {
+	font-weight:bold;
+	font-style:normal;
+	padding:0px 3px;
+	color:#222;
+	background-color:#fff;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
 
 
-#index footer span {
+#main footer .wrap {
 	background-color:rgba(255,255,255,0.4);
 }
-.no-rgba #index footer span {
+.no-rgba #main footer .wrap {
 	background-color:transparent;
 	background-image:url(w40.png);
 }
 
-#index header .title .about a,
-#index header .title .parent a,
-#index header .startbtn {
+#main header .title .controls,
+#main header .startbtn {
 	background-color:rgba(0,0,0,0.4);
 }
-#index header .title .about a,
-#index header .title .parent a {
+.no-rgba #main header .title .controls {
+	background-color:transparent;
+	background-image:url(k40.png);
+}
+#main header .title .controls a {
 	background-image:url(controls_c.png);
 }
-#index header .startbtn {
+#main header .startbtn {
 	background-image:url(start_c.png);
 }
-#index header .title .about a:hover,
-#index header .title .parent a:hover,
-#index header .startbtn:hover {
+#main header .title .controls:hover,
+#main header .startbtn:hover {
 	background-color:rgba(255,255,255,0.8);
 }
-.rgba .share {
-	background-color:rgba(255,255,255,0.6);
-}
-.no-rgba .share {
-	background-color:transparent;
-	background-image:url(w60.png);
-}
-.rgba .share:hover {
-	background-color:rgba(255,255,255,0.8);
-}
-.no-rgba .share:hover {
+.no-rgba #main header .title .controls:hover {
 	background-color:transparent;
 	background-image:url(w80.png);
-}
-.share a {
-	color:#444;
-}
-.share a:hover {
-	color:#000;
 }
 
 .rgba .scrbar {
@@ -109,6 +110,7 @@
 	background-color:transparent;
 	background-image:url(k10.png);
 }
+.hook-s,
 .scrup,
 .scrdn {
 	background-image:url(pg_c.png);
@@ -151,6 +153,7 @@
 	background-color:transparent;
 	background-image:url(k40.png);
 }
+.hook-c,
 .gallery .scrollbox .scleft,
 .gallery .scrollbox .scright {
 	background-image:url(scroll_c.png);
@@ -170,6 +173,7 @@
 	background-color:transparent;
 	background-image:url(w80.png);
 }
+.hook-c,
 .gallery .navigation nav a {
 	background-image:url(controls_c.png);	
 }
@@ -186,6 +190,7 @@
 	filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#FFFFFFFF,EndColorStr=#FFbcb8af);
 	
 }
+.hook-b,
 .gallery .bottom nav a {
 	border-left:1px solid #a59e8e;
 	background-image:url(buttons_c.png);
@@ -197,6 +202,7 @@
 .no-rgba .gallery .bottom nav a.active {
 	background-color:#a59e8e;
 }
+.hook-b,
 .gallery .bottom .icon {
 	background-image:url(buttons_c.png);
 }

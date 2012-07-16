@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.6.0_23" class="java.beans.XMLDecoder">
+<java version="1.6.0_24" class="java.beans.XMLDecoder">
  <object class="java.util.HashMap">
   <void method="put">
    <string>lastSplashPath</string>
@@ -11,14 +11,14 @@
   </void>
   <void method="put">
    <string>lastFolderImagePath</string>
-   <string>gatekeeper_butterfly.jpg</string>
-  </void>
-  <void method="put">
-   <string>lastSplashSize</string>
-   <string>900x400</string>
+   <string>Members S to Z/Fred Thompson/gatekeeper_butterfly.jpg</string>
   </void>
   <void method="put">
    <string>lastFolderImageSize</string>
+   <string>900x400</string>
+  </void>
+  <void method="put">
+   <string>lastSplashSize</string>
    <string>900x400</string>
   </void>
  </object>

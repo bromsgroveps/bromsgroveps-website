@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.6.0_23" class="java.beans.XMLDecoder">
+<java version="1.6.0_24" class="java.beans.XMLDecoder">
  <object class="java.util.HashMap">
   <void method="put">
    <string>title</string>
@@ -8,6 +8,10 @@
   <void method="put">
    <string>imageSettingsHash</string>
    <string>279ff1f0f8517575eccb8b75abf42043</string>
+  </void>
+  <void method="put">
+   <string>lastMadeDate</string>
+   <long>1342443628066</long>
   </void>
   <void method="put">
    <string>lastSplashPath</string>
@@ -32,6 +36,10 @@
   <void method="put">
    <string>lastFolderImageSize</string>
    <string>900x400</string>
+  </void>
+  <void method="put">
+   <string>createdDate</string>
+   <long>1342443502689</long>
   </void>
  </object>
 </java>

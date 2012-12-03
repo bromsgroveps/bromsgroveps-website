@@ -11,11 +11,15 @@
   </void>
   <void method="put">
    <string>lastMadeDate</string>
-   <long>1342448886009</long>
+   <long>1353760002365</long>
   </void>
   <void method="put">
    <string>lastSplashPath</string>
    <string>Members A to F/Colin Close AFIAP CPAGB LRPS/He&apos;s My Man.jpg</string>
+  </void>
+  <void method="put">
+   <string>promotion</string>
+   <string>Sponsored by: &lt;a href=&quot;http://www.goodgrip.co.uk/&quot;&gt;Goodgrip - Car Tyres Online&lt;/a&gt;</string>
   </void>
   <void method="put">
    <string>imageLinking</string>
@@ -27,7 +31,7 @@
   </void>
   <void method="put">
    <string>lastFolderImagePath</string>
-   <string>Club Competition Winners/2011 - 2012/Cathedral-rays.jpg</string>
+   <string>Exhibition/2012/The Conversation.jpg</string>
   </void>
   <void method="put">
    <string>lastSplashSize</string>

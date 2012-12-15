@@ -6,10 +6,11 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-James Halstead
+-James Halstead
 Jill Howe
 Malcolm Landon
 Mike Norton
 Mal Ogden
 Ray Price
 David Riddle
+Tex Richards

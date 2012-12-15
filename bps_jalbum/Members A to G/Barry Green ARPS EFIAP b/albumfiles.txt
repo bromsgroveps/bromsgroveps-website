@@ -6,18 +6,25 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-barnowlwithmouse.jpg
-grasssnake.jpg
-peregrinefalconwithpidgeon.jpg
-twotonedpholiota.jpg
-anna.jpg
-donna.jpg
-inthepocket.jpg
-jetskiracer.jpg
-joslingforposition.jpg
-littleowlwithmouse.jpg
-marbledwhiteonscabius.jpg
-ontheracingline.jpg
-ontheedge.jpg
-templeelder.jpg
-theoddpair.jpg
+2 Goshawk with Rabbit.jpg
+3 Me and My Dog.jpg
+-3. Red Kite.tif
+A1. Puffin Landing with Sand Eels .jpg
+D1..On the Edge.jpg
+-BPS 3 003.tif
+D2.Parting Company .jpg
+D3.Concentration.jpg
+D4.Duel.jpg
+E2.jpg
+E1. Gothic Beauty.jpg
+E4. Temple Elder.jpg
+B1.Golden Temple Guard.jpg
+B2.The Odd Pair couple.jpg
+BG.Marbled White on Wild Scabius.jpg
+D4.On the Limit.jpg
+F2.Tomb Raider .jpg
+F3.Ricky # 5.jpg
+Grass Snake #4 copy.jpg
+Grass Snake #5.jpg
+Igor.jpg
+Steampunk 3 .jpg

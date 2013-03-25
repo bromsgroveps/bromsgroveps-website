@@ -8,9 +8,10 @@
 
 -James Halstead
 Jill Howe
+Andy Kent
 Malcolm Landon
 Mike Norton
 Mal Ogden
-Ray Price
+-Ray Price
 David Riddle
 Tex Richards

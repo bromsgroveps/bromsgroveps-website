@@ -1,0 +1,32 @@
+# This file is created by JAlbum. It sets custom file filtering and ordering for this image directory.
+# Each row indicate a file and it's order. Files not listed here are added to the end of the album
+# Rows beginning with "-" indicate excluded files.
+# Rows containing a tab character indicate links, where the text before the tab is the logical file name
+# and the path to the right is the target path.
+# Note: This file allows absolute paths to files and directories in other locations and thereby
+# allows you to compile albums consisting of files from several different locations.
+
+Danse_Noir_by_Colin_Close_annual_print_comp_colour_highly_commended.jpg
+Evening_Cyclists_by_Colin_Close_annual_print_comp_mono_first.jpg
+Baby_Doll_by_Colin_Close_annual_pdi_comp_colour_third.jpg
+Spectating_by_Colin_Close_annual_pdi_comp_mono_first.jpg
+Weather_Beaten_by_Colin_Close_annual_print_comp_mono_highly commended.jpg
+Ciaran_by_Colin_Close_annual_pdi_comp_mono_commended.jpg
+Audition_for_Hitchcock_by_Colin_Close_panel_pdi_comp_commended.jpg
+Deep_in_the_Woods_by_Colin_Close_4th_pdi_comp_mono_third.jpg
+Country_Ruins_by_Colin_Close_3rd_pdi_comp_mono_third.jpg
+Chico_Pete_Blunn_3rd Pdi__mono_ HC.jpg
+The Poser_by_Colin_Close_3rd_pdi_comp_colour_highly_commended.jpg
+Gypsy_Fiddler_by_Colin_Close_2nd_pdi_comp_colour_highly_commended.jpg
+ End_of_the_day_by_Colin_Close_2nd_pdi_comp_colour_highly_commended.jpg
+Apple Surprise_Pete Blunn_ 2nd PDI Colour_HC.jpg
+un-zip a pea_Pete Blunn_2nd PDI_Colour_ Commended.jpg
+The Hot Seat.jpg
+Gent with hat_Pete Blunn_Mono_ 2nd Print Comp_HC.jpg
+Shadow_Boxing_by_Colin_Close_2nd_pdi_comp_mono_second.jpg
+Tubular_Steel_by_Colin_Close_2nd_pdi_comp_mono_third.jpg
+Skeletal_Remains_by_Colin_Close_2nd_pdi_comp_mono_commended.jpg
+Rambo_by_Colin_Close_1st_pdi_comp_colour_third.jpg
+The_Patriarch_by_Colin_Close_1st_pdi_comp_mono_first.jpg
+Here's_Looking_at_you, _Baby_by_Colin_Close_1st_pdi_comp_mono_second.jpg
+Greek Fishermen_Pete Blunn _!st Print _Colour_Commended.jpg

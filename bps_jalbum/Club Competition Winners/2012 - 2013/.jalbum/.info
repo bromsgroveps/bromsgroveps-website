@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.6.0_27" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>lastFolderThumbSize</string>
+   <string>240x240</string>
+  </void>
+  <void method="put">
+   <string>lastFolderImagePath</string>
+   <string>Club Competition Winners/2012 - 2013/The Poser_by_Colin_Close_3rd_pdi_comp_colour_highly_commended.jpg</string>
+  </void>
+  <void method="put">
+   <string>lastFolderImageSize</string>
+   <string>900x400</string>
+  </void>
+ </object>
+</java>

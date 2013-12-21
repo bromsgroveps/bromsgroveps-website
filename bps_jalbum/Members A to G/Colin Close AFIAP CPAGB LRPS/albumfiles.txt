@@ -6,16 +6,6 @@
 # Note: This file allows absolute paths to files and directories in other locations and thereby
 # allows you to compile albums consisting of files from several different locations.
 
-Jon.jpg
-Billy.jpg
-cuddly toys.jpg
-Black and White.jpg
-Franka.jpg
-Keep Away.jpg
-poppy.jpg
-Green Bottle.jpg
-He's My Man.jpg
-Give us a Light!.jpg
-Jack the Lad.jpg
-Leah.jpg
-posing.jpg
+General
+People
+Nudes

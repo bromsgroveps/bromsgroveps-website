@@ -7,7 +7,8 @@
 # allows you to compile albums consisting of files from several different locations.
 
 Club Competition Winners
-Exhibition
+Practical Group
 Members A to G
 Members H to R
 Members S to Z
+Exhibition
